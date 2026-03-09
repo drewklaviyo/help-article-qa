@@ -106,11 +106,11 @@
     }
 
     function badgeClass(s) {
-      return 'badge badge-' + (s === 'feature-unavailable' ? 'skip' : s === 'skipped' ? 'skip' : s === 'timeout' ? 'fail' : s);
+      return 'badge badge-' + (s === 'mismatch' ? 'fail' : s === 'match' ? 'pass' : s === 'unable-to-verify' ? 'skip' : s);
     }
 
-    function getFailedStep(r) {
-      return (r.steps || []).find(s => s.status === 'fail' || s.status === 'timeout' || s.status === 'feature-unavailable');
+    function getTopMismatch(r) {
+      return (r.findings || []).find(f => f.status === 'mismatch');
     }
 
     function buildStatCard(label, value, colorClass) {
@@ -234,49 +234,68 @@
       const table = el('table', null,
         el('thead', null, el('tr', null,
           el('th', null, 'Status'), el('th', null, 'Article'),
-          el('th', null, 'Steps'), el('th', null, 'Duration'), el('th')
+          el('th', null, 'Pages'), el('th', null, 'Findings'), el('th', null, 'Duration'), el('th')
         ))
       );
       const tbody = el('tbody');
 
       latest.results.forEach((r, i) => {
         const status = getStatus(r);
-        const failedStep = getFailedStep(r);
-        const passedSteps = (r.steps || []).filter(s => s.status === 'pass').length;
-        const totalSteps = (r.steps || []).length;
+        const topMismatch = getTopMismatch(r);
+        const findings = r.findings || [];
+        const matches = findings.filter(f => f.status === 'match').length;
+        const mismatches = findings.filter(f => f.status === 'mismatch').length;
 
         const nameCell = el('td', null,
           el('a', { className: 'article-link', href: r.articleUrl, target: '_blank' }, r.articleName)
         );
-        if (failedStep) {
+        if (topMismatch) {
           nameCell.appendChild(el('div', { className: 'detail-text' },
-            'Step ' + (failedStep.stepIndex + 1) + ': ' + (failedStep.reason || failedStep.stepText || '').slice(0, 120)
+            topMismatch.element + ': ' + topMismatch.detail.slice(0, 120)
           ));
         }
         if (r.error) {
           nameCell.appendChild(el('div', { className: 'detail-text' }, r.error));
         }
 
-        const expandBtn = totalSteps > 0 ? el('button', {
+        const hasFindings = findings.length > 0;
+        const expandBtn = hasFindings ? el('button', {
           className: 'expand-btn',
           onClick: () => {
-            const panel = document.getElementById('steps-' + i);
+            const panel = document.getElementById('findings-' + i);
             panel.classList.toggle('open');
             expandBtn.textContent = panel.classList.contains('open') ? 'Hide' : 'Details';
           }
         }, 'Details') : null;
 
+        const findingSummary = mismatches > 0
+          ? mismatches + ' issue' + (mismatches > 1 ? 's' : '')
+          : matches > 0 ? matches + ' OK' : '-';
+
         const row = el('tr', { dataset: { status } },
           el('td', null, el('span', { className: badgeClass(status) }, statusLabel(status))),
           nameCell,
-          el('td', null, passedSteps + '/' + totalSteps),
+          el('td', null, String(r.pagesChecked || 0)),
+          el('td', null, findingSummary),
           el('td', null, formatDuration(r.durationMs)),
           el('td', null, expandBtn)
         );
         tbody.appendChild(row);
 
-        const stepsRow = el('tr', null, buildStepsPanel(r.steps, i));
-        tbody.appendChild(stepsRow);
+        // Findings detail panel
+        const panel = el('td', { className: 'steps-panel', colspan: '6', id: 'findings-' + i });
+        findings.forEach(f => {
+          panel.appendChild(el('div', { className: 'step-row' },
+            el('span', { className: 'step-text' }, el('strong', null, f.element)),
+            el('span', { className: 'step-status' }, el('span', { className: badgeClass(f.status) }, f.status))
+          ));
+          panel.appendChild(el('div', { className: 'step-row' },
+            el('span', { className: 'step-num' }),
+            el('span', { className: 'step-text detail-text' }, f.detail),
+            el('span', { className: 'step-status' })
+          ));
+        });
+        tbody.appendChild(el('tr', null, panel));
       });
 
       table.appendChild(tbody);

@@ -7,30 +7,6 @@ export interface Article {
   rank?: number;
 }
 
-export type StepStatus = "pass" | "fail" | "skipped" | "timeout" | "feature-unavailable";
-
-export interface StepResult {
-  stepIndex: number;
-  stepText: string;
-  status: StepStatus;
-  reason?: string;
-  screenshotPath?: string;
-  actionsAttempted: number;
-}
-
-export interface ArticleResult {
-  articleId: string;
-  articleName: string;
-  articleUrl: string;
-  passed: boolean;
-  broken?: boolean;
-  featureUnavailable?: boolean;
-  steps: StepResult[];
-  screenshots: string[];
-  durationMs: number;
-  error?: string;
-}
-
 export interface AccountConfig {
   accountName: string;
   plan: string;
@@ -39,14 +15,35 @@ export interface AccountConfig {
   notes?: string;
 }
 
-export type GPTActionType = "click" | "type" | "navigate" | "wait" | "pass" | "fail" | "skip";
+// A page referenced by an article that we need to screenshot
+export interface ReferencedPage {
+  pageName: string;
+  urlPath: string; // e.g., "/flows", "/settings/api-keys"
+}
 
-export interface GPTAction {
-  action: GPTActionType;
-  selector?: string;
-  text?: string;
-  url?: string;
-  reason?: string;
+// A single finding from the visual audit
+export type FindingStatus = "match" | "mismatch" | "unable-to-verify";
+
+export interface AuditFinding {
+  element: string; // What was checked (e.g., "Create Flow button", "Integrations sidebar")
+  status: FindingStatus;
+  detail: string; // Explanation
+  screenshotPath?: string;
+}
+
+// Result for one article
+export interface ArticleResult {
+  articleId: string;
+  articleName: string;
+  articleUrl: string;
+  passed: boolean;
+  broken?: boolean;
+  featureUnavailable?: boolean;
+  pagesChecked: number;
+  findings: AuditFinding[];
+  screenshots: string[];
+  durationMs: number;
+  error?: string;
 }
 
 export interface QARunSummary {
@@ -59,4 +56,5 @@ export interface QARunSummary {
   broken: number;
   skipped: number;
   results: ArticleResult[];
+  githubRunUrl?: string;
 }

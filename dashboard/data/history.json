@@ -1,0 +1,22 @@
+[
+  {
+    "runId": "2026-03-09T17-40-37",
+    "startedAt": "2026-03-09T17:40:37.589Z",
+    "durationMs": 24671,
+    "totalArticles": 3,
+    "passed": 0,
+    "failed": 3,
+    "broken": 0,
+    "skipped": 0
+  },
+  {
+    "runId": "2026-03-09T19-14-20",
+    "startedAt": "2026-03-09T19:14:20.675Z",
+    "durationMs": 31475,
+    "totalArticles": 3,
+    "passed": 0,
+    "failed": 3,
+    "broken": 0,
+    "skipped": 0
+  }
+]

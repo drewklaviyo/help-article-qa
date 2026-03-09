@@ -32,7 +32,7 @@ export class PlaywrightController {
 
   async navigate(url: string): Promise<void> {
     await this.page.goto(url, {
-      waitUntil: "networkidle",
+      waitUntil: "domcontentloaded",
       timeout: 30_000,
     });
   }

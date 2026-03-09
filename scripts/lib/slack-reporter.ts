@@ -1,4 +1,4 @@
-import { QARunSummary, ArticleResult, StepResult } from "./types";
+import { QARunSummary, ArticleResult } from "./types";
 
 function log(msg: string): void {
   console.log(`[${new Date().toISOString()}] [slack] ${msg}`);
@@ -19,30 +19,6 @@ function buildGitHubRunUrl(): string {
   return `${serverUrl}/${repo}/actions/runs/${runId}`;
 }
 
-function buildFailureBlocks(result: ArticleResult): object[] {
-  const failedStep = result.steps.find(
-    (s: StepResult) => s.status === "fail" || s.status === "timeout"
-  );
-  if (!failedStep) return [];
-
-  return [
-    {
-      type: "section",
-      text: {
-        type: "mrkdwn",
-        text: [
-          `*${result.articleName}*`,
-          `Step ${failedStep.stepIndex + 1}: _${failedStep.stepText.slice(0, 100)}_`,
-          `Reason: ${failedStep.reason ?? "Unknown"}`,
-          result.articleUrl ? `<${result.articleUrl}|View article>` : "",
-        ]
-          .filter(Boolean)
-          .join("\n"),
-      },
-    },
-  ];
-}
-
 export async function postSlackReport(summary: QARunSummary): Promise<void> {
   const webhookUrl = process.env.SLACK_WEBHOOK_URL;
   if (!webhookUrl) {
@@ -56,7 +32,7 @@ export async function postSlackReport(summary: QARunSummary): Promise<void> {
   const headerText = [
     summary.passed > 0 ? `${summary.passed} passing` : null,
     summary.failed > 0 ? `${summary.failed} failing` : null,
-    summary.skipped > 0 ? `${summary.skipped} skipped (feature unavailable)` : null,
+    summary.skipped > 0 ? `${summary.skipped} skipped` : null,
     summary.broken > 0 ? `${summary.broken} broken (404)` : null,
   ]
     .filter(Boolean)
@@ -65,10 +41,7 @@ export async function postSlackReport(summary: QARunSummary): Promise<void> {
   const blocks: object[] = [
     {
       type: "header",
-      text: {
-        type: "plain_text",
-        text: "Help Article QA Report",
-      },
+      text: { type: "plain_text", text: "Help Article QA Audit" },
     },
     {
       type: "section",
@@ -79,41 +52,52 @@ export async function postSlackReport(summary: QARunSummary): Promise<void> {
     },
   ];
 
-  // Add failure details (exclude feature-unavailable from failures section)
-  const realFailures = summary.results.filter(
-    (r) => !r.passed && !r.featureUnavailable
+  // Mismatch details
+  const mismatched = summary.results.filter(
+    (r) => !r.passed && !r.broken && !r.featureUnavailable
   );
-  if (realFailures.length > 0) {
+  if (mismatched.length > 0) {
     blocks.push({ type: "divider" });
     blocks.push({
       type: "section",
-      text: { type: "mrkdwn", text: "*Failures:*" },
+      text: { type: "mrkdwn", text: "*UI Mismatches Found:*" },
     });
 
-    for (const failure of realFailures) {
-      if (failure.broken) {
-        blocks.push({
-          type: "section",
-          text: {
-            type: "mrkdwn",
-            text: `*${failure.articleName}* — Article returned 404\n<${failure.articleUrl}|View article>`,
-          },
-        });
-      } else {
-        blocks.push(...buildFailureBlocks(failure));
-      }
+    for (const result of mismatched.slice(0, 10)) {
+      const mismatchFindings = result.findings
+        .filter((f) => f.status === "mismatch")
+        .slice(0, 3);
+
+      const findingText = mismatchFindings.length > 0
+        ? mismatchFindings.map((f) => `  - ${f.element}: ${f.detail.slice(0, 100)}`).join("\n")
+        : result.error ?? "Unknown error";
+
+      blocks.push({
+        type: "section",
+        text: {
+          type: "mrkdwn",
+          text: `*<${result.articleUrl}|${result.articleName}>*\n${findingText}`,
+        },
+      });
+    }
+
+    if (mismatched.length > 10) {
+      blocks.push({
+        type: "section",
+        text: { type: "mrkdwn", text: `_...and ${mismatched.length - 10} more_` },
+      });
     }
   }
 
-  // Add feature-unavailable section
-  const featureSkipped = summary.results.filter((r) => r.featureUnavailable);
-  if (featureSkipped.length > 0) {
+  // Broken articles
+  const broken = summary.results.filter((r) => r.broken);
+  if (broken.length > 0) {
     blocks.push({ type: "divider" });
     blocks.push({
       type: "section",
       text: {
         type: "mrkdwn",
-        text: `*Skipped (feature not on test account):* ${featureSkipped.map((r) => r.articleName).join(", ")}`,
+        text: `*Broken (404):* ${broken.map((r) => `<${r.articleUrl}|${r.articleName}>`).join(", ")}`,
       },
     });
   }

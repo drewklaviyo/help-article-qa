@@ -5,15 +5,14 @@ import * as fs from "fs";
 import * as path from "path";
 import { chromium } from "playwright";
 import { authenticateKlaviyo } from "./lib/klaviyo-auth";
-import { fetchArticleSteps } from "./lib/article-fetcher";
-import { runArticleQA } from "./lib/gpt-agent";
+import { fetchArticleContent } from "./lib/article-fetcher";
+import { runArticleAudit } from "./lib/gpt-agent";
 import { PlaywrightController } from "./lib/playwright-controller";
 import { postSlackReport } from "./lib/slack-reporter";
 import { Article, AccountConfig, ArticleResult, QARunSummary } from "./lib/types";
 
 const BATCH_SIZE = 3;
-const DELAY_BETWEEN_ARTICLES_MS = 2500;
-const DASHBOARD_URL = "https://www.klaviyo.com/dashboard";
+const DELAY_BETWEEN_BATCHES_MS = 2000;
 
 function log(msg: string): void {
   console.log(`[${new Date().toISOString()}] [runner] ${msg}`);
@@ -24,8 +23,7 @@ function sleep(ms: number): Promise<void> {
 }
 
 function generateRunId(): string {
-  const now = new Date();
-  return now.toISOString().replace(/[:.]/g, "-").slice(0, 19);
+  return new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19);
 }
 
 async function runSingleArticle(
@@ -36,15 +34,12 @@ async function runSingleArticle(
   const startTime = Date.now();
   const screenshotDir = path.join(screenshotBaseDir, article.id);
 
-  log(`--- Testing: ${article.name} ---`);
+  log(`--- Auditing: ${article.name} ---`);
 
-  // Fetch article steps
-  let steps: string[];
-  let is404: boolean;
+  // Fetch article content
+  let articleContent;
   try {
-    const result = await fetchArticleSteps(article.url);
-    steps = result.steps;
-    is404 = result.is404;
+    articleContent = await fetchArticleContent(article.url);
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
     log(`Failed to fetch article: ${msg}`);
@@ -53,14 +48,15 @@ async function runSingleArticle(
       articleName: article.name,
       articleUrl: article.url,
       passed: false,
-      steps: [],
+      pagesChecked: 0,
+      findings: [],
       screenshots: [],
       durationMs: Date.now() - startTime,
       error: msg,
     };
   }
 
-  if (is404) {
+  if (articleContent.is404) {
     log(`Article is BROKEN (404): ${article.url}`);
     return {
       articleId: article.id,
@@ -68,48 +64,48 @@ async function runSingleArticle(
       articleUrl: article.url,
       passed: false,
       broken: true,
-      steps: [],
+      pagesChecked: 0,
+      findings: [],
       screenshots: [],
       durationMs: Date.now() - startTime,
     };
   }
 
-  if (steps.length === 0) {
-    log("No steps found in article, marking as failed.");
+  if (articleContent.bodyText.length < 50) {
+    log("Article body too short, skipping.");
     return {
       articleId: article.id,
       articleName: article.name,
       articleUrl: article.url,
-      passed: false,
-      steps: [],
+      passed: true,
+      pagesChecked: 0,
+      findings: [{ element: "Article content", status: "unable-to-verify", detail: "Article body too short to audit" }],
       screenshots: [],
       durationMs: Date.now() - startTime,
-      error: "No actionable steps found in article",
     };
   }
 
-  // Open a page and run QA
+  // Run visual audit
   const { controller, close } = await contextFactory();
   try {
-    // Start from dashboard each time
-    await controller.navigate(DASHBOARD_URL);
-    return await runArticleQA(
+    return await runArticleAudit(
       controller,
       article.id,
       article.name,
       article.url,
-      steps,
+      articleContent,
       screenshotDir
     );
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
-    log(`Unexpected error during QA: ${msg}`);
+    log(`Unexpected error: ${msg}`);
     return {
       articleId: article.id,
       articleName: article.name,
       articleUrl: article.url,
       passed: false,
-      steps: [],
+      pagesChecked: 0,
+      findings: [],
       screenshots: [],
       durationMs: Date.now() - startTime,
       error: msg,
@@ -124,17 +120,16 @@ async function runBatch(
   contextFactory: () => Promise<{ controller: PlaywrightController; close: () => Promise<void> }>,
   screenshotBaseDir: string
 ): Promise<ArticleResult[]> {
-  const promises = batch.map((article) =>
-    runSingleArticle(contextFactory, article, screenshotBaseDir)
+  return Promise.all(
+    batch.map((article) => runSingleArticle(contextFactory, article, screenshotBaseDir))
   );
-  return Promise.all(promises);
 }
 
 async function main(): Promise<void> {
   const runId = generateRunId();
   const runStart = Date.now();
 
-  log(`=== Help Article QA Run: ${runId} ===`);
+  log(`=== Help Article QA Audit: ${runId} ===`);
 
   // Parse CLI args
   const args = process.argv.slice(2);
@@ -147,6 +142,23 @@ async function main(): Promise<void> {
   const articlesPath = path.resolve(__dirname, "../articles.json");
   let articles: Article[] = JSON.parse(fs.readFileSync(articlesPath, "utf-8"));
 
+  // Filter by disabled features
+  const accountConfigPath = path.resolve(__dirname, "../account-config.json");
+  if (fs.existsSync(accountConfigPath)) {
+    const accountConfig: AccountConfig = JSON.parse(
+      fs.readFileSync(accountConfigPath, "utf-8")
+    );
+    const disabled = new Set(accountConfig.disabledFeatures.map((f) => f.toLowerCase()));
+    const before = articles.length;
+    articles = articles.filter(
+      (a) => !a.tags.some((t) => disabled.has(t.toLowerCase()))
+    );
+    const skippedCount = before - articles.length;
+    if (skippedCount > 0) {
+      log(`Skipped ${skippedCount} articles requiring disabled features.`);
+    }
+  }
+
   if (tagFilter) {
     articles = articles.filter((a) =>
       a.tags.some((t) => t.toLowerCase() === tagFilter.toLowerCase())
@@ -154,56 +166,28 @@ async function main(): Promise<void> {
     log(`Filtered to ${articles.length} articles with tag "${tagFilter}".`);
   }
 
-  // Filter out articles requiring disabled features
-  const accountConfigPath = path.resolve(__dirname, "../account-config.json");
-  if (fs.existsSync(accountConfigPath)) {
-    const accountConfig: AccountConfig = JSON.parse(
-      fs.readFileSync(accountConfigPath, "utf-8")
-    );
-    const disabled = new Set(
-      accountConfig.disabledFeatures.map((f) => f.toLowerCase())
-    );
-    const before = articles.length;
-    articles = articles.filter(
-      (a) => !a.tags.some((t) => disabled.has(t.toLowerCase()))
-    );
-    const skipped = before - articles.length;
-    if (skipped > 0) {
-      log(
-        `Skipped ${skipped} articles requiring disabled features (${[...disabled].join(", ")}).`
-      );
-    }
-  }
-
   if (limit > 0) {
     articles = articles.slice(0, limit);
     log(`Limited to first ${articles.length} articles.`);
   }
 
-  log(`Testing ${articles.length} articles.`);
+  log(`Auditing ${articles.length} articles.`);
 
-  // Setup screenshot directory
+  // Setup
   const screenshotBaseDir = path.resolve(__dirname, "../screenshots", runId);
   fs.mkdirSync(screenshotBaseDir, { recursive: true });
 
-  // Launch browser and authenticate
   log("Launching browser...");
   const browser = await chromium.launch({ headless: true });
   const authContext = await authenticateKlaviyo(browser);
 
-  // Factory to create new pages from the authenticated context
   const contextFactory = async () => {
     const page = await authContext.newPage();
     const controller = new PlaywrightController(page);
-    return {
-      controller,
-      close: async () => {
-        await page.close();
-      },
-    };
+    return { controller, close: () => page.close() };
   };
 
-  // Run articles in batches
+  // Run in batches
   const results: ArticleResult[] = [];
 
   for (let i = 0; i < articles.length; i += BATCH_SIZE) {
@@ -215,9 +199,8 @@ async function main(): Promise<void> {
     const batchResults = await runBatch(batch, contextFactory, screenshotBaseDir);
     results.push(...batchResults);
 
-    // Delay between batches (not after the last one)
     if (i + BATCH_SIZE < articles.length) {
-      await sleep(DELAY_BETWEEN_ARTICLES_MS);
+      await sleep(DELAY_BETWEEN_BATCHES_MS);
     }
   }
 
@@ -237,7 +220,7 @@ async function main(): Promise<void> {
   log(`\n=== Results ===`);
   log(`Passed: ${summary.passed}`);
   log(`Failed: ${summary.failed}`);
-  log(`Skipped (feature unavailable): ${summary.skipped}`);
+  log(`Skipped: ${summary.skipped}`);
   log(`Broken (404): ${summary.broken}`);
   log(`Total time: ${(summary.durationMs / 1000).toFixed(1)}s`);
 
@@ -245,19 +228,16 @@ async function main(): Promise<void> {
   const dashboardDataDir = path.resolve(__dirname, "../dashboard/data");
   fs.mkdirSync(dashboardDataDir, { recursive: true });
 
-  // Add GitHub run URL if available
   const githubRunUrl =
     process.env.GITHUB_SERVER_URL && process.env.GITHUB_REPOSITORY && process.env.GITHUB_RUN_ID
       ? `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`
       : undefined;
-  const dashboardSummary = { ...summary, githubRunUrl };
 
   fs.writeFileSync(
     path.join(dashboardDataDir, "latest.json"),
-    JSON.stringify(dashboardSummary, null, 2)
+    JSON.stringify({ ...summary, githubRunUrl }, null, 2)
   );
 
-  // Append to history
   const historyPath = path.join(dashboardDataDir, "history.json");
   const history: Array<Record<string, unknown>> = fs.existsSync(historyPath)
     ? JSON.parse(fs.readFileSync(historyPath, "utf-8"))
@@ -282,13 +262,12 @@ async function main(): Promise<void> {
   await authContext.close();
   await browser.close();
 
-  // Exit with failure code if any articles failed
   if (summary.failed > 0 || summary.broken > 0) {
     log("Exiting with code 1 due to failures.");
     process.exit(1);
   }
 
-  log("All articles passed!");
+  log("All articles passed audit!");
 }
 
 main().catch((err) => {

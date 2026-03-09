@@ -1,0 +1,257 @@
+{
+  "runId": "2026-03-09T19-14-20",
+  "startedAt": "2026-03-09T19:14:20.675Z",
+  "durationMs": 31475,
+  "totalArticles": 3,
+  "passed": 0,
+  "failed": 3,
+  "broken": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "articleId": "how-to-migrate-from-mailchimp",
+      "articleName": "How to migrate from Mailchimp",
+      "articleUrl": "https://help.klaviyo.com/hc/en-us/articles/115005254948-How-to-migrate-from-Mailchimp",
+      "passed": false,
+      "featureUnavailable": false,
+      "pagesChecked": 4,
+      "findings": [
+        {
+          "element": "Integrations tab/navigation",
+          "status": "match",
+          "detail": "The article says to select the Integrations tab. In Image 1, Integrations appears in the left sidebar and is selected."
+        },
+        {
+          "element": "Explore apps button",
+          "status": "match",
+          "detail": "The article instructs users to click Explore apps. In Image 1, an Explore apps button is visible in the top-right of the Integrations page."
+        },
+        {
+          "element": "Search for Mailchimp from Integrations",
+          "status": "unable-to-verify",
+          "detail": "Image 1 shows the Integrations page and Explore apps button, but it does not show the app marketplace search results or whether a Mailchimp card appears after searching."
+        },
+        {
+          "element": "Mailchimp app card",
+          "status": "unable-to-verify",
+          "detail": "The article says to click on the Mailchimp card, then click Install. The provided screenshot does not show a Mailchimp card or app detail page, only the main Integrations overview."
+        },
+        {
+          "element": "Install button for Mailchimp",
+          "status": "unable-to-verify",
+          "detail": "The article references an Install button on the Mailchimp app page, but no Mailchimp app page is shown in the screenshots."
+        },
+        {
+          "element": "Mailchimp setup page with API key field",
+          "status": "unable-to-verify",
+          "detail": "The article describes pasting a Mailchimp API key into a setup page field and clicking Connect to Mailchimp. No such setup page is shown in the screenshots."
+        },
+        {
+          "element": "Connect to Mailchimp button",
+          "status": "unable-to-verify",
+          "detail": "The article references a Connect to Mailchimp button, but this button is not visible in any provided screenshot."
+        },
+        {
+          "element": "Advanced options on Mailchimp integration setup",
+          "status": "unable-to-verify",
+          "detail": "The article lists advanced options such as collecting open/click data and creating lists from audiences, but the screenshots do not show the integration configuration screen."
+        },
+        {
+          "element": "Lists & Segments page availability",
+          "status": "mismatch",
+          "detail": "Image 2, which is supposed to show /lists-segments, displays a Klaviyo error page ('Sorry, that page isn't actually here.') instead of a Lists & Segments UI. This suggests the documented page/path may no longer exist or the route has changed."
+        },
+        {
+          "element": "Profiles page availability",
+          "status": "mismatch",
+          "detail": "Image 3, which is supposed to show /profiles, also displays a Klaviyo error page rather than a Profiles UI. This suggests the page/path referenced by the screenshot label is no longer valid or has changed."
+        },
+        {
+          "element": "Email templates page availability",
+          "status": "mismatch",
+          "detail": "Image 4, which is supposed to show /content/template, displays an error page instead of an email templates interface. This suggests the route/path for templates may have changed."
+        },
+        {
+          "element": "Terminology around 'Mailchimp audiences' syncing to 'Klaviyo lists'",
+          "status": "unable-to-verify",
+          "detail": "The article references Klaviyo lists and imported audiences, but because the Lists & Segments page is not visible and instead shows an error page, the current terminology or destination page cannot be confirmed from the screenshots."
+        },
+        {
+          "element": "Ability to review imported Mailchimp data in Profiles",
+          "status": "unable-to-verify",
+          "detail": "The article discusses reviewing synced contacts and statuses in Klaviyo, but the provided Profiles screenshot is an error page, so the current UI for reviewing profile data cannot be verified."
+        },
+        {
+          "element": "Migrating email templates in Klaviyo",
+          "status": "unable-to-verify",
+          "detail": "The article mentions exporting Mailchimp email templates and recreating/migrating them in Klaviyo, but the screenshot for the Email templates page is an error page, so no template UI elements can be checked."
+        }
+      ],
+      "screenshots": [
+        "/Users/drew.kull/Documents/Product/Help_Article_QA/screenshots/2026-03-09T19-14-20/how-to-migrate-from-mailchimp/integrations.png",
+        "/Users/drew.kull/Documents/Product/Help_Article_QA/screenshots/2026-03-09T19-14-20/how-to-migrate-from-mailchimp/lists---segments.png",
+        "/Users/drew.kull/Documents/Product/Help_Article_QA/screenshots/2026-03-09T19-14-20/how-to-migrate-from-mailchimp/profiles.png",
+        "/Users/drew.kull/Documents/Product/Help_Article_QA/screenshots/2026-03-09T19-14-20/how-to-migrate-from-mailchimp/email-templates.png"
+      ],
+      "durationMs": 23141
+    },
+    {
+      "articleId": "getting-started-with-lightspeed-pos",
+      "articleName": "Getting started with Lightspeed POS",
+      "articleUrl": "https://help.klaviyo.com/hc/en-us/articles/115005081987-Getting-started-with-Lightspeed-POS",
+      "passed": false,
+      "featureUnavailable": false,
+      "pagesChecked": 3,
+      "findings": [
+        {
+          "element": "Integrations navigation path",
+          "status": "match",
+          "detail": "The article says to select the Integrations tab. In the Integrations screenshot, there is an 'Integrations' item in the left sidebar and that page is open."
+        },
+        {
+          "element": "Explore apps button on Integrations page",
+          "status": "match",
+          "detail": "The article says to click 'Explore apps.' In the Integrations screenshot, an 'Explore apps' button is visible in the top-right."
+        },
+        {
+          "element": "Search for Lightspeed and click the card",
+          "status": "unable-to-verify",
+          "detail": "The Integrations screenshot shows app cards like Meta Ads, Google Ads, Gorgias, and Stripe, but no Lightspeed card is visible and no search results for Lightspeed are shown."
+        },
+        {
+          "element": "Install button for Lightspeed",
+          "status": "unable-to-verify",
+          "detail": "The article says to click 'Install' after opening the Lightspeed app card, but the Lightspeed app detail page is not shown in the screenshots."
+        },
+        {
+          "element": "Connect to Lightspeed button",
+          "status": "unable-to-verify",
+          "detail": "The article references a 'Connect to Lightspeed' button, but no Lightspeed setup screen is visible in the provided screenshots."
+        },
+        {
+          "element": "Authorize Application flow",
+          "status": "unable-to-verify",
+          "detail": "The article says to log in to Lightspeed and click 'Authorize Application,' but no Lightspeed authorization screen is shown."
+        },
+        {
+          "element": "Account ID confirmation and list selection during setup",
+          "status": "unable-to-verify",
+          "detail": "The article describes confirming an Account ID, optionally adding customers to a list, and clicking 'Complete setup,' but none of these setup fields are visible in the screenshots."
+        },
+        {
+          "element": "Analytics > Metrics navigation",
+          "status": "mismatch",
+          "detail": "The article instructs users to click the Analytics dropdown and select Metrics, and later says 'Navigate to Analytics > Metrics.' In the Analytics screenshot, the /analytics page displays a 404-style error ('Sorry, that page isn't actually here.'), and no Metrics page or Metrics option is visible."
+        },
+        {
+          "element": "Filter by Lightspeed on Metrics page",
+          "status": "unable-to-verify",
+          "detail": "The article says to filter Metrics by Lightspeed, but the Metrics page is not shown; the provided Analytics screenshot is an error page instead."
+        },
+        {
+          "element": "Placed Order metric verification",
+          "status": "unable-to-verify",
+          "detail": "The article says to look for the 'Placed Order' metric. No metrics list or chart is visible in the screenshots, so this cannot be confirmed."
+        },
+        {
+          "element": "Timezone check path: account name in lower left > Settings > Organization",
+          "status": "partial",
+          "detail": "The screenshots support part of this path: the account area appears in the lower-left ('NRCSF'), and the Settings page includes an 'Organization' item under the Account section. However, the step of opening Settings from the account menu is not shown, and the actual timezone field is not visible on the Organization page in the provided screenshot."
+        },
+        {
+          "element": "Settings > Organization page exists",
+          "status": "match",
+          "detail": "The article references 'Settings > Organization.' In the Settings screenshot, 'Organization' is present in the left-side settings menu under the Account section."
+        },
+        {
+          "element": "Timezone field under Organization",
+          "status": "unable-to-verify",
+          "detail": "The article says to scroll down to 'Timezone' on the Organization page. The screenshot shows Settings with 'Personal' selected, not 'Organization,' so the timezone field cannot be verified."
+        },
+        {
+          "element": "Lightspeed metrics have a Lightspeed icon",
+          "status": "unable-to-verify",
+          "detail": "The article says metrics synced from Lightspeed have a Lightspeed icon, but no metrics list is shown in the screenshots."
+        }
+      ],
+      "screenshots": [
+        "/Users/drew.kull/Documents/Product/Help_Article_QA/screenshots/2026-03-09T19-14-20/getting-started-with-lightspeed-pos/integrations.png",
+        "/Users/drew.kull/Documents/Product/Help_Article_QA/screenshots/2026-03-09T19-14-20/getting-started-with-lightspeed-pos/analytics.png",
+        "/Users/drew.kull/Documents/Product/Help_Article_QA/screenshots/2026-03-09T19-14-20/getting-started-with-lightspeed-pos/settings.png"
+      ],
+      "durationMs": 23197
+    },
+    {
+      "articleId": "getting-started-with-rcs",
+      "articleName": "Getting started with RCS",
+      "articleUrl": "https://help.klaviyo.com/hc/en-us/articles/41066240307483-Getting-started-with-RCS",
+      "passed": false,
+      "featureUnavailable": false,
+      "pagesChecked": 4,
+      "findings": [
+        {
+          "element": "Campaigns page RCS entry point",
+          "status": "match",
+          "detail": "The article says RCS applies to campaigns, and the Campaigns list screenshot shows an RCS-related banner with a visible 'Set up RCS' button and 'Learn more about RCS' link."
+        },
+        {
+          "element": "Flows support for RCS",
+          "status": "unable-to-verify",
+          "detail": "The article says RCS applies to flows, but the Flows screenshot is still loading and does not show any flow list items, create actions, or RCS-specific UI to confirm this."
+        },
+        {
+          "element": "Conversations support for RCS",
+          "status": "unable-to-verify",
+          "detail": "The article says text messages sent via conversations can be delivered over RCS, but no Conversations page or related UI is shown in the screenshots."
+        },
+        {
+          "element": "Segments path /segments/create",
+          "status": "mismatch",
+          "detail": "The provided screenshot for /segments/create shows a Klaviyo error page stating 'Sorry, that page isn't actually here.' This suggests the referenced create-segment page/path is not available as shown."
+        },
+        {
+          "element": "Settings navigation for SMS/RCS-related configuration",
+          "status": "match",
+          "detail": "The Settings screenshot shows a top-level 'Text message' tab, which aligns with the article discussing RCS as part of text messaging settings and behavior."
+        },
+        {
+          "element": "Settings > API keys navigation example",
+          "status": "match",
+          "detail": "In the Settings screenshot, 'API keys' appears in the left-side submenu under the Account section, so this navigation label exists in the current UI."
+        },
+        {
+          "element": "RCS activation/setup location",
+          "status": "mismatch",
+          "detail": "The article discusses activation of an RCS agent in the account, but among the visible screenshots the only obvious RCS setup entry point is the Campaigns banner ('Set up RCS'). No RCS-specific option is visible on the shown Settings screen, so the setup location may be different from what users would expect from account-level activation wording."
+        },
+        {
+          "element": "Terminology: 'RCS agent'",
+          "status": "unable-to-verify",
+          "detail": "The article repeatedly uses the term 'RCS agent,' but no screenshot shows an RCS settings page, agent configuration screen, or this terminology in the UI to confirm whether the wording matches the product."
+        },
+        {
+          "element": "Plain text URL / rich card editing behavior in campaigns",
+          "status": "unable-to-verify",
+          "detail": "The article describes how scheduled campaigns copy SMS content into an RCS version and how images become rich cards, but the Campaigns list screenshot does not show campaign editor behavior or message composition screens."
+        },
+        {
+          "element": "Flow message image-copy behavior after RCS activation",
+          "status": "unable-to-verify",
+          "detail": "The article describes how existing flow SMS copy is copied into RCS versions and how images are handled, but the Flows screenshot does not show any message editor or flow detail UI."
+        },
+        {
+          "element": "Contact cards unsupported in RCS",
+          "status": "unable-to-verify",
+          "detail": "The article describes contact card behavior and the RCS contact page, but none of the screenshots show a message editor, MMS content block, or RCS contact card UI."
+        }
+      ],
+      "screenshots": [
+        "/Users/drew.kull/Documents/Product/Help_Article_QA/screenshots/2026-03-09T19-14-20/getting-started-with-rcs/campaigns-list.png",
+        "/Users/drew.kull/Documents/Product/Help_Article_QA/screenshots/2026-03-09T19-14-20/getting-started-with-rcs/flows-list.png",
+        "/Users/drew.kull/Documents/Product/Help_Article_QA/screenshots/2026-03-09T19-14-20/getting-started-with-rcs/create-segment.png",
+        "/Users/drew.kull/Documents/Product/Help_Article_QA/screenshots/2026-03-09T19-14-20/getting-started-with-rcs/settings.png"
+      ],
+      "durationMs": 24832
+    }
+  ]
+}
