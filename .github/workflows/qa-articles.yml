@@ -34,6 +34,17 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
 
+      - name: Decrypt saved session
+        env:
+          SESSION_PASSPHRASE: ${{ secrets.SESSION_PASSPHRASE }}
+        run: |
+          if [ -f playwright-state.json.enc ] && [ -n "$SESSION_PASSPHRASE" ]; then
+            openssl enc -aes-256-cbc -pbkdf2 -d -in playwright-state.json.enc -out playwright-state.json -pass "pass:$SESSION_PASSPHRASE"
+            echo "Session decrypted successfully"
+          else
+            echo "No encrypted session found, will attempt fresh login"
+          fi
+
       - name: Restore dashboard history
         uses: actions/cache@v4
         with:
