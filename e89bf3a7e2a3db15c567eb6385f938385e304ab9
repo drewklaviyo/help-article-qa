@@ -1,0 +1,25 @@
+.github/workflows/qa-articles.yml
+  a66f10b9da53c40b 61
+scripts/qa-runner.ts
+  a66f10b9da53c40b 104-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.9",
+  "base_commit_sha": "e89bf3a7e2a3db15c567eb6385f938385e304ab9",
+  "prompts": {
+    "a66f10b9da53c40b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd026113-6a3c-4178-aef8-a78bd4573ba2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "drewklaviyo <drew.kull@klaviyo.com>",
+      "messages": [],
+      "total_additions": 14,
+      "total_deletions": 1,
+      "accepted_lines": 14,
+      "overriden_lines": 0
+    }
+  }
+}
