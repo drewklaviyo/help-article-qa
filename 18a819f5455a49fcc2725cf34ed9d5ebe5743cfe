@@ -1,0 +1,29 @@
+scripts/lib/gpt-agent.ts
+  a66f10b9da53c40b 2,6,208-209,240,249,257-290,306,342,356
+dashboard/index.html
+  a66f10b9da53c40b 45-52,293,295-338
+scripts/qa-runner.ts
+  a66f10b9da53c40b 32-33,54,71,86,93,102-103,115,128-129,132,187-188,209
+scripts/lib/types.ts
+  a66f10b9da53c40b 31-38,51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.9",
+  "base_commit_sha": "18a819f5455a49fcc2725cf34ed9d5ebe5743cfe",
+  "prompts": {
+    "a66f10b9da53c40b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd026113-6a3c-4178-aef8-a78bd4573ba2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "drewklaviyo <drew.kull@klaviyo.com>",
+      "messages": [],
+      "total_additions": 122,
+      "total_deletions": 11,
+      "accepted_lines": 120,
+      "overriden_lines": 0
+    }
+  }
+}
