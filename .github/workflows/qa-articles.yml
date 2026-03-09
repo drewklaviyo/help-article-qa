@@ -9,6 +9,7 @@ on:
     paths:
       - 'scripts/**'
       - 'articles.json'
+      - '.github/workflows/**'
 
 permissions:
   contents: read
@@ -60,6 +61,17 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: npx ts-node scripts/qa-runner.ts --limit=30
         continue-on-error: true
+
+      - name: Verify dashboard data
+        if: always()
+        run: |
+          echo "Dashboard data directory contents:"
+          ls -la dashboard/data/ 2>/dev/null || echo "No data directory"
+          if [ -f dashboard/data/latest.json ]; then
+            echo "latest.json exists ($(wc -c < dashboard/data/latest.json) bytes)"
+          else
+            echo "WARNING: latest.json not found"
+          fi
 
       - name: Upload screenshots
         if: always()
