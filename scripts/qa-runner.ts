@@ -29,7 +29,8 @@ function generateRunId(): string {
 async function runSingleArticle(
   contextFactory: () => Promise<{ controller: PlaywrightController; close: () => Promise<void> }>,
   article: Article,
-  screenshotBaseDir: string
+  screenshotBaseDir: string,
+  dashboardScreenshotBaseDir: string
 ): Promise<ArticleResult> {
   const startTime = Date.now();
   const screenshotDir = path.join(screenshotBaseDir, article.id);
@@ -50,6 +51,7 @@ async function runSingleArticle(
       passed: false,
       pagesChecked: 0,
       findings: [],
+      screenshotPairs: [],
       screenshots: [],
       durationMs: Date.now() - startTime,
       error: msg,
@@ -66,6 +68,7 @@ async function runSingleArticle(
       broken: true,
       pagesChecked: 0,
       findings: [],
+      screenshotPairs: [],
       screenshots: [],
       durationMs: Date.now() - startTime,
     };
@@ -80,12 +83,14 @@ async function runSingleArticle(
       passed: true,
       pagesChecked: 0,
       findings: [{ element: "Article content", status: "unable-to-verify", detail: "Article body too short to audit" }],
+      screenshotPairs: [],
       screenshots: [],
       durationMs: Date.now() - startTime,
     };
   }
 
   // Run visual audit
+  const dashboardScreenshotDir = path.join(dashboardScreenshotBaseDir, article.id);
   const { controller, close } = await contextFactory();
   try {
     return await runArticleAudit(
@@ -94,7 +99,8 @@ async function runSingleArticle(
       article.name,
       article.url,
       articleContent,
-      screenshotDir
+      screenshotDir,
+      dashboardScreenshotDir
     );
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
@@ -106,6 +112,7 @@ async function runSingleArticle(
       passed: false,
       pagesChecked: 0,
       findings: [],
+      screenshotPairs: [],
       screenshots: [],
       durationMs: Date.now() - startTime,
       error: msg,
@@ -118,10 +125,11 @@ async function runSingleArticle(
 async function runBatch(
   batch: Article[],
   contextFactory: () => Promise<{ controller: PlaywrightController; close: () => Promise<void> }>,
-  screenshotBaseDir: string
+  screenshotBaseDir: string,
+  dashboardScreenshotBaseDir: string
 ): Promise<ArticleResult[]> {
   return Promise.all(
-    batch.map((article) => runSingleArticle(contextFactory, article, screenshotBaseDir))
+    batch.map((article) => runSingleArticle(contextFactory, article, screenshotBaseDir, dashboardScreenshotBaseDir))
   );
 }
 
@@ -176,6 +184,8 @@ async function main(): Promise<void> {
   // Setup
   const screenshotBaseDir = path.resolve(__dirname, "../screenshots", runId);
   fs.mkdirSync(screenshotBaseDir, { recursive: true });
+  const dashboardScreenshotDir = path.resolve(__dirname, "../dashboard/screenshots");
+  fs.mkdirSync(dashboardScreenshotDir, { recursive: true });
 
   log("Launching browser...");
   const browser = await chromium.launch({ headless: true });
@@ -196,7 +206,7 @@ async function main(): Promise<void> {
     const totalBatches = Math.ceil(articles.length / BATCH_SIZE);
     log(`Batch ${batchNum}/${totalBatches} (${batch.length} articles)`);
 
-    const batchResults = await runBatch(batch, contextFactory, screenshotBaseDir);
+    const batchResults = await runBatch(batch, contextFactory, screenshotBaseDir, dashboardScreenshotDir);
     results.push(...batchResults);
 
     if (i + BATCH_SIZE < articles.length) {

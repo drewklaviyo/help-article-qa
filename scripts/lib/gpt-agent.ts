@@ -1,8 +1,9 @@
 import OpenAI from "openai";
+import * as fs from "fs";
 import * as path from "path";
 import { PlaywrightController } from "./playwright-controller";
 import { ArticleContent } from "./article-fetcher";
-import { ReferencedPage, AuditFinding, ArticleResult } from "./types";
+import { ReferencedPage, AuditFinding, ScreenshotPair, ArticleResult } from "./types";
 
 const GPT_MODEL = "gpt-5.4";
 const MAX_RETRIES = 3;
@@ -204,7 +205,8 @@ export async function runArticleAudit(
   articleName: string,
   articleUrl: string,
   articleContent: ArticleContent,
-  screenshotDir: string
+  screenshotDir: string,
+  dashboardScreenshotDir: string
 ): Promise<ArticleResult> {
   const openai = new OpenAI();
   const startTime = Date.now();
@@ -235,6 +237,7 @@ export async function runArticleAudit(
             detail: "No specific Klaviyo app pages identified in this article.",
           },
         ],
+        screenshotPairs: [],
         screenshots: [],
         durationMs: Date.now() - startTime,
       };
@@ -243,12 +246,47 @@ export async function runArticleAudit(
     log(`Found ${referencedPages.length} pages to check: ${referencedPages.map((p) => p.pageName).join(", ")}`);
 
     // Step 2: Navigate to each page and screenshot
+    // Save to both screenshots/ (artifacts) and dashboard/screenshots/ (Pages deploy)
     const screenshotResults = await screenshotPages(
       controller,
       referencedPages,
       screenshotDir
     );
     allScreenshots.push(...screenshotResults.map((s) => s.path));
+
+    // Also copy screenshots to dashboard folder for the web UI
+    const screenshotPairs: ScreenshotPair[] = [];
+    const articleImages = articleContent.imageUrls || [];
+
+    for (let i = 0; i < screenshotResults.length; i++) {
+      const sr = screenshotResults[i];
+      const dashPath = path.join(
+        dashboardScreenshotDir,
+        `${sr.page.pageName.replace(/[^a-z0-9]/gi, "-").toLowerCase()}.png`
+      );
+      const dashDir = path.dirname(dashPath);
+      if (!fs.existsSync(dashDir)) {
+        fs.mkdirSync(dashDir, { recursive: true });
+      }
+      // Copy the screenshot to dashboard folder
+      if (fs.existsSync(sr.path)) {
+        fs.copyFileSync(sr.path, dashPath);
+      }
+
+      screenshotPairs.push({
+        pageName: sr.page.pageName,
+        articleImageUrl: articleImages[i] || undefined, // Best-effort pairing
+        liveScreenshotPath: `screenshots/${articleId}/${path.basename(dashPath)}`,
+      });
+    }
+
+    // Add remaining article images that weren't paired
+    for (let i = screenshotResults.length; i < articleImages.length; i++) {
+      screenshotPairs.push({
+        pageName: `Article image ${i + 1}`,
+        articleImageUrl: articleImages[i],
+      });
+    }
 
     if (screenshotResults.length === 0) {
       log("Failed to capture any screenshots.");
@@ -265,6 +303,7 @@ export async function runArticleAudit(
             detail: "Could not load any of the referenced Klaviyo pages.",
           },
         ],
+        screenshotPairs,
         screenshots: [],
         durationMs: Date.now() - startTime,
         error: "Failed to capture screenshots",
@@ -300,6 +339,7 @@ export async function runArticleAudit(
       featureUnavailable,
       pagesChecked: screenshotResults.length,
       findings,
+      screenshotPairs,
       screenshots: allScreenshots,
       durationMs: Date.now() - startTime,
     };
@@ -313,6 +353,7 @@ export async function runArticleAudit(
       passed: false,
       pagesChecked: 0,
       findings: [],
+      screenshotPairs: [],
       screenshots: allScreenshots,
       durationMs: Date.now() - startTime,
       error: msg,

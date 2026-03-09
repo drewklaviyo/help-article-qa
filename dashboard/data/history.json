@@ -18,5 +18,15 @@
     "failed": 3,
     "broken": 0,
     "skipped": 0
+  },
+  {
+    "runId": "2026-03-09T20-36-19",
+    "startedAt": "2026-03-09T20:36:19.073Z",
+    "durationMs": 29020,
+    "totalArticles": 3,
+    "passed": 1,
+    "failed": 2,
+    "broken": 0,
+    "skipped": 1
   }
 ]

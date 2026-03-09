@@ -25,10 +25,17 @@ export interface ReferencedPage {
 export type FindingStatus = "match" | "mismatch" | "unable-to-verify";
 
 export interface AuditFinding {
-  element: string; // What was checked (e.g., "Create Flow button", "Integrations sidebar")
+  element: string;
   status: FindingStatus;
-  detail: string; // Explanation
-  screenshotPath?: string;
+  detail: string;
+  livePage?: string; // Which live page this finding relates to
+}
+
+// A pair of screenshots for comparison
+export interface ScreenshotPair {
+  pageName: string;
+  articleImageUrl?: string; // Screenshot from the help article
+  liveScreenshotPath?: string; // Screenshot from the live app
 }
 
 // Result for one article
@@ -41,6 +48,7 @@ export interface ArticleResult {
   featureUnavailable?: boolean;
   pagesChecked: number;
   findings: AuditFinding[];
+  screenshotPairs: ScreenshotPair[];
   screenshots: string[];
   durationMs: number;
   error?: string;

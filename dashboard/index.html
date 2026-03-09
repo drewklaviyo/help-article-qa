@@ -42,6 +42,14 @@
     .step-num { color: var(--muted); min-width: 32px; }
     .step-text { flex: 1; }
     .step-status { min-width: 80px; text-align: right; }
+    .screenshot-pairs { padding: 12px 0; }
+    .screenshot-pair { margin-bottom: 16px; }
+    .screenshot-pair-title { font-size: 13px; font-weight: 600; margin-bottom: 8px; color: var(--muted); }
+    .screenshot-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .screenshot-col { text-align: center; }
+    .screenshot-col img { max-width: 100%; border-radius: 8px; border: 1px solid var(--border); }
+    .screenshot-label { font-size: 11px; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .no-screenshot { background: var(--surface); border: 1px dashed var(--border); border-radius: 8px; padding: 40px; color: var(--muted); font-size: 13px; }
     .filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
     .filter-btn { background: var(--surface); border: 1px solid var(--border); color: var(--muted); padding: 6px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; }
     .filter-btn:hover, .filter-btn.active { border-color: var(--text); color: var(--text); }
@@ -282,8 +290,52 @@
         );
         tbody.appendChild(row);
 
-        // Findings detail panel
+        // Findings detail panel with screenshot pairs
         const panel = el('td', { className: 'steps-panel', colspan: '6', id: 'findings-' + i });
+
+        // Screenshot pairs section
+        const pairs = r.screenshotPairs || [];
+        if (pairs.length > 0) {
+          const pairsDiv = el('div', { className: 'screenshot-pairs' });
+          pairs.forEach(p => {
+            const pairDiv = el('div', { className: 'screenshot-pair' });
+            pairDiv.appendChild(el('div', { className: 'screenshot-pair-title' }, p.pageName));
+
+            const compare = el('div', { className: 'screenshot-compare' });
+
+            // Article screenshot
+            const articleCol = el('div', { className: 'screenshot-col' });
+            articleCol.appendChild(el('div', { className: 'screenshot-label' }, 'Help Article'));
+            if (p.articleImageUrl) {
+              const img = el('img');
+              img.src = p.articleImageUrl;
+              img.alt = 'Article screenshot for ' + p.pageName;
+              articleCol.appendChild(img);
+            } else {
+              articleCol.appendChild(el('div', { className: 'no-screenshot' }, 'No screenshot in article'));
+            }
+            compare.appendChild(articleCol);
+
+            // Live screenshot
+            const liveCol = el('div', { className: 'screenshot-col' });
+            liveCol.appendChild(el('div', { className: 'screenshot-label' }, 'Live App'));
+            if (p.liveScreenshotPath) {
+              const img = el('img');
+              img.src = './' + p.liveScreenshotPath;
+              img.alt = 'Live screenshot of ' + p.pageName;
+              liveCol.appendChild(img);
+            } else {
+              liveCol.appendChild(el('div', { className: 'no-screenshot' }, 'Could not capture'));
+            }
+            compare.appendChild(liveCol);
+
+            pairDiv.appendChild(compare);
+            pairsDiv.appendChild(pairDiv);
+          });
+          panel.appendChild(pairsDiv);
+        }
+
+        // Findings list
         findings.forEach(f => {
           panel.appendChild(el('div', { className: 'step-row' },
             el('span', { className: 'step-text' }, el('strong', null, f.element)),
