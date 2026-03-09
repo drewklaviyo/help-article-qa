@@ -1,0 +1,37 @@
+scripts/lib/article-fetcher.ts
+  a66f10b9da53c40b 7-13,25,27,33,40-62,64
+scripts/lib/playwright-controller.ts
+  a66f10b9da53c40b 35
+scripts/lib/types.ts
+  a66f10b9da53c40b 17-22,24-25,27-30,34,42-43,59
+scripts/lib/gpt-agent.ts
+  a66f10b9da53c40b 4-5,9,12,19,21-22,30-31,35-36,44,51-96,99-102,104-113,115-125,127-128,131-195,198-201,206,213,216-217,219-221,223-231,233-240,243,245-249,251,253-271,274-280,282-289,291-293,295-319
+scripts/dry-run.ts
+  a66f10b9da53c40b 2-3,13,45,56-58,61,65,69,72-73
+scripts/qa-runner.ts
+  a66f10b9da53c40b 8-9,15,26,37,39-40,42,51-52,59,67-68,74-75,80-82,88,91,96,101,107-108,123-124,132,145,151,156-158,168,174,176,187,190,203,223,238,270
+dashboard/index.html
+  a66f10b9da53c40b 109,112-113,237,244-247,252,254,261-262,265,271-274,278-279,285-298
+scripts/lib/slack-reporter.ts
+  a66f10b9da53c40b 1,35,44,55-57,59,63,66-75,79-82,84,87-88,92-94,100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.9",
+  "base_commit_sha": "9018e66c3fd001705a4501283f64da25f1e772bb",
+  "prompts": {
+    "a66f10b9da53c40b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd026113-6a3c-4178-aef8-a78bd4573ba2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "drewklaviyo <drew.kull@klaviyo.com>",
+      "messages": [],
+      "total_additions": 449,
+      "total_deletions": 531,
+      "accepted_lines": 426,
+      "overriden_lines": 0
+    }
+  }
+}
