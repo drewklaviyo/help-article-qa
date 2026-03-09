@@ -1,0 +1,32 @@
+{
+  "accountName": "QA Test Account",
+  "plan": "standard",
+  "enabledFeatures": [
+    "email",
+    "campaigns",
+    "flows",
+    "segments",
+    "lists",
+    "forms",
+    "templates",
+    "profiles",
+    "coupons",
+    "integrations",
+    "shopify",
+    "api"
+  ],
+  "disabledFeatures": [
+    "sms",
+    "whatsapp",
+    "rcs",
+    "reviews",
+    "conversations",
+    "helpdesk",
+    "portfolios",
+    "customer-hub",
+    "analytics",
+    "cdp",
+    "marketing-analytics"
+  ],
+  "notes": "Has email campaigns, flows, forms, profiles. No SMS, WhatsApp, RCS, Reviews, Marketing Analytics, CDP, Helpdesk, Portfolios, Customer Hub."
+}

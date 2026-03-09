@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help Article QA Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f1117; --surface: #1a1d27; --border: #2a2d3a; --text: #e1e4ed;
+      --muted: #8b8fa3; --green: #34d399; --red: #f87171; --yellow: #fbbf24;
+      --blue: #60a5fa; --purple: #a78bfa;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+    h1 { font-size: 24px; font-weight: 600; margin-bottom: 8px; }
+    .subtitle { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 32px; }
+    .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+    .stat-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); margin-bottom: 4px; }
+    .stat-value { font-size: 32px; font-weight: 700; }
+    .green { color: var(--green); } .red { color: var(--red); } .yellow { color: var(--yellow); }
+    .blue { color: var(--blue); } .purple { color: var(--purple); }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; text-transform: uppercase; }
+    .badge-pass { background: rgba(52,211,153,0.15); color: var(--green); }
+    .badge-fail { background: rgba(248,113,113,0.15); color: var(--red); }
+    .badge-skip { background: rgba(251,191,36,0.15); color: var(--yellow); }
+    .badge-broken { background: rgba(167,139,250,0.15); color: var(--purple); }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 32px; }
+    th { text-align: left; padding: 12px 16px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); border-bottom: 1px solid var(--border); }
+    td { padding: 12px 16px; border-bottom: 1px solid var(--border); font-size: 14px; }
+    tr:hover { background: rgba(255,255,255,0.02); }
+    .article-link { color: var(--text); text-decoration: none; font-weight: 500; }
+    .article-link:hover { text-decoration: underline; }
+    .detail-text { margin-top: 4px; font-size: 12px; color: var(--muted); }
+    .expand-btn { background: none; border: 1px solid var(--border); color: var(--muted); padding: 4px 10px; border-radius: 6px; cursor: pointer; font-size: 12px; }
+    .expand-btn:hover { border-color: var(--text); color: var(--text); }
+    .steps-panel { display: none; padding: 12px 16px; background: rgba(0,0,0,0.2); }
+    .steps-panel.open { display: table-cell; }
+    .step-row { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
+    .step-row:last-child { border-bottom: none; }
+    .step-num { color: var(--muted); min-width: 32px; }
+    .step-text { flex: 1; }
+    .step-status { min-width: 80px; text-align: right; }
+    .filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+    .filter-btn { background: var(--surface); border: 1px solid var(--border); color: var(--muted); padding: 6px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+    .filter-btn:hover, .filter-btn.active { border-color: var(--text); color: var(--text); }
+    .run-meta { display: flex; gap: 24px; margin-bottom: 24px; font-size: 13px; color: var(--muted); }
+    .run-meta a { color: var(--blue); text-decoration: none; }
+    .run-meta a:hover { text-decoration: underline; }
+    .history-chart { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 32px; }
+    .chart-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; }
+    .chart-bars { display: flex; align-items: flex-end; gap: 4px; height: 120px; }
+    .chart-col { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; height: 100%; }
+    .chart-stack { display: flex; flex-direction: column-reverse; width: 100%; flex: 1; }
+    .bar-pass { background: var(--green); border-radius: 4px 4px 0 0; min-height: 2px; }
+    .bar-fail { background: var(--red); border-radius: 4px 4px 0 0; }
+    .chart-label { font-size: 10px; color: var(--muted); }
+    .empty { text-align: center; padding: 60px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Help Article QA Dashboard</h1>
+    <p class="subtitle">Automated QA for Klaviyo help articles</p>
+    <div id="app"><div class="empty">Loading results...</div></div>
+  </div>
+
+  <script>
+    function el(tag, attrs, ...children) {
+      const e = document.createElement(tag);
+      if (attrs) Object.entries(attrs).forEach(([k, v]) => {
+        if (k === 'className') e.className = v;
+        else if (k.startsWith('on')) e.addEventListener(k.slice(2).toLowerCase(), v);
+        else if (k === 'href' || k === 'target' || k === 'colspan') e.setAttribute(k, v);
+        else if (k === 'dataset') Object.entries(v).forEach(([dk, dv]) => e.dataset[dk] = dv);
+        else e[k] = v;
+      });
+      children.flat().forEach(c => {
+        if (c == null) return;
+        e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c);
+      });
+      return e;
+    }
+
+    function formatDuration(ms) {
+      const s = Math.floor(ms / 1000), m = Math.floor(s / 60);
+      return m + 'm ' + (s % 60).toString().padStart(2, '0') + 's';
+    }
+
+    function formatDate(iso) {
+      return new Date(iso).toLocaleString('en-US', {
+        month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true
+      });
+    }
+
+    function getStatus(r) {
+      if (r.broken) return 'broken';
+      if (r.featureUnavailable) return 'skip';
+      if (r.passed) return 'pass';
+      return 'fail';
+    }
+
+    function statusLabel(s) {
+      return { pass: 'Passed', fail: 'Failed', skip: 'Skipped', broken: '404' }[s] || s;
+    }
+
+    function badgeClass(s) {
+      return 'badge badge-' + (s === 'feature-unavailable' ? 'skip' : s === 'skipped' ? 'skip' : s === 'timeout' ? 'fail' : s);
+    }
+
+    function getFailedStep(r) {
+      return (r.steps || []).find(s => s.status === 'fail' || s.status === 'timeout' || s.status === 'feature-unavailable');
+    }
+
+    function buildStatCard(label, value, colorClass) {
+      return el('div', { className: 'stat-card' },
+        el('div', { className: 'stat-label' }, label),
+        el('div', { className: 'stat-value ' + colorClass }, String(value))
+      );
+    }
+
+    function buildStepsPanel(steps, id) {
+      const panel = el('td', { className: 'steps-panel', colspan: '5', id: 'steps-' + id });
+      (steps || []).forEach(s => {
+        panel.appendChild(el('div', { className: 'step-row' },
+          el('span', { className: 'step-num' }, (s.stepIndex + 1) + '.'),
+          el('span', { className: 'step-text' }, s.stepText.slice(0, 200)),
+          el('span', { className: 'step-status' }, el('span', { className: badgeClass(s.status) }, s.status))
+        ));
+        if (s.reason) {
+          panel.appendChild(el('div', { className: 'step-row' },
+            el('span', { className: 'step-num' }),
+            el('span', { className: 'step-text detail-text' }, s.reason),
+            el('span', { className: 'step-status' })
+          ));
+        }
+      });
+      return panel;
+    }
+
+    function buildHistoryChart(history) {
+      if (!history || history.length < 2) return null;
+      const recent = history.slice(-30);
+      const maxTotal = Math.max(...recent.map(h => h.totalArticles || 1));
+      const bars = el('div', { className: 'chart-bars' });
+      recent.forEach(h => {
+        const passH = Math.max(2, (h.passed / maxTotal) * 100);
+        const failH = h.failed > 0 ? Math.max(2, (h.failed / maxTotal) * 100) : 0;
+        const stack = el('div', { className: 'chart-stack' });
+        const passBar = el('div', { className: 'bar-pass' });
+        passBar.style.height = passH + '%';
+        stack.appendChild(passBar);
+        if (failH > 0) {
+          const failBar = el('div', { className: 'bar-fail' });
+          failBar.style.height = failH + '%';
+          stack.appendChild(failBar);
+        }
+        const dateLabel = new Date(h.startedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        bars.appendChild(el('div', { className: 'chart-col' }, stack, el('span', { className: 'chart-label' }, dateLabel)));
+      });
+      return el('div', { className: 'history-chart' },
+        el('div', { className: 'chart-title' }, 'Run History'),
+        bars
+      );
+    }
+
+    function render(latest, history) {
+      const app = document.getElementById('app');
+      app.textContent = '';
+
+      if (!latest) {
+        app.appendChild(el('div', { className: 'empty' }, 'No QA results yet. Run the QA pipeline to see results here.'));
+        return;
+      }
+
+      // Stats
+      const stats = el('div', { className: 'stats' },
+        buildStatCard('Tested', latest.results.length, ''),
+        buildStatCard('Passing', latest.passed, 'green'),
+        buildStatCard('Failing', latest.failed, 'red'),
+        buildStatCard('Skipped', latest.skipped || 0, 'yellow'),
+        buildStatCard('Broken', latest.broken, 'purple'),
+        buildStatCard('Run Time', formatDuration(latest.durationMs), 'blue')
+      );
+      app.appendChild(stats);
+
+      // Run meta
+      const meta = el('div', { className: 'run-meta' },
+        el('span', null, 'Run: ' + latest.runId),
+        el('span', null, formatDate(latest.startedAt))
+      );
+      if (latest.githubRunUrl) {
+        const link = el('a', { href: latest.githubRunUrl, target: '_blank' }, 'View in GitHub Actions');
+        meta.appendChild(link);
+      }
+      app.appendChild(meta);
+
+      // History chart
+      const chart = buildHistoryChart(history);
+      if (chart) app.appendChild(chart);
+
+      // Filters
+      const filters = el('div', { className: 'filters' });
+      [
+        ['all', 'All (' + latest.results.length + ')'],
+        ['fail', 'Failing (' + latest.failed + ')'],
+        ['pass', 'Passing (' + latest.passed + ')'],
+        ['skip', 'Skipped (' + (latest.skipped || 0) + ')'],
+        ['broken', 'Broken (' + latest.broken + ')']
+      ].forEach(([f, label], idx) => {
+        const btn = el('button', {
+          className: 'filter-btn' + (idx === 0 ? ' active' : ''),
+          dataset: { filter: f },
+          onClick: () => {
+            filters.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            document.querySelectorAll('[data-status]').forEach(row => {
+              const show = f === 'all' || row.dataset.status === f;
+              row.style.display = show ? '' : 'none';
+              const next = row.nextElementSibling;
+              if (next && !show) {
+                const p = next.querySelector('.steps-panel');
+                if (p) p.classList.remove('open');
+              }
+            });
+          }
+        }, label);
+        filters.appendChild(btn);
+      });
+      app.appendChild(filters);
+
+      // Table
+      const table = el('table', null,
+        el('thead', null, el('tr', null,
+          el('th', null, 'Status'), el('th', null, 'Article'),
+          el('th', null, 'Steps'), el('th', null, 'Duration'), el('th')
+        ))
+      );
+      const tbody = el('tbody');
+
+      latest.results.forEach((r, i) => {
+        const status = getStatus(r);
+        const failedStep = getFailedStep(r);
+        const passedSteps = (r.steps || []).filter(s => s.status === 'pass').length;
+        const totalSteps = (r.steps || []).length;
+
+        const nameCell = el('td', null,
+          el('a', { className: 'article-link', href: r.articleUrl, target: '_blank' }, r.articleName)
+        );
+        if (failedStep) {
+          nameCell.appendChild(el('div', { className: 'detail-text' },
+            'Step ' + (failedStep.stepIndex + 1) + ': ' + (failedStep.reason || failedStep.stepText || '').slice(0, 120)
+          ));
+        }
+        if (r.error) {
+          nameCell.appendChild(el('div', { className: 'detail-text' }, r.error));
+        }
+
+        const expandBtn = totalSteps > 0 ? el('button', {
+          className: 'expand-btn',
+          onClick: () => {
+            const panel = document.getElementById('steps-' + i);
+            panel.classList.toggle('open');
+            expandBtn.textContent = panel.classList.contains('open') ? 'Hide' : 'Details';
+          }
+        }, 'Details') : null;
+
+        const row = el('tr', { dataset: { status } },
+          el('td', null, el('span', { className: badgeClass(status) }, statusLabel(status))),
+          nameCell,
+          el('td', null, passedSteps + '/' + totalSteps),
+          el('td', null, formatDuration(r.durationMs)),
+          el('td', null, expandBtn)
+        );
+        tbody.appendChild(row);
+
+        const stepsRow = el('tr', null, buildStepsPanel(r.steps, i));
+        tbody.appendChild(stepsRow);
+      });
+
+      table.appendChild(tbody);
+      app.appendChild(table);
+    }
+
+    (async () => {
+      const [latest, history] = await Promise.all([
+        fetch('./data/latest.json').then(r => r.ok ? r.json() : null).catch(() => null),
+        fetch('./data/history.json').then(r => r.ok ? r.json() : null).catch(() => null)
+      ]);
+      render(latest, history || []);
+    })();
+  </script>
+</body>
+</html>

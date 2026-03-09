@@ -1,0 +1,4770 @@
+[
+  {
+    "id": "getting-started-with-klaviyo-reviews",
+    "name": "Getting started with Klaviyo Reviews",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/15937542819355-Getting-started-with-Klaviyo-Reviews",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 1
+  },
+  {
+    "id": "how-to-migrate-from-mailchimp",
+    "name": "How to migrate from Mailchimp",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005254948-How-to-migrate-from-Mailchimp",
+    "tags": [],
+    "views": 0,
+    "rank": 2
+  },
+  {
+    "id": "getting-started-with-email-deliverability-monitoring-and-per",
+    "name": "Getting started with email deliverability monitoring and performance metrics",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115000201131-Getting-started-with-email-deliverability-monitoring-and-performance-metrics",
+    "tags": [
+      "email",
+      "forms",
+      "analytics",
+      "deliverability"
+    ],
+    "views": 0,
+    "rank": 3
+  },
+  {
+    "id": "getting-started-with-lightspeed-pos",
+    "name": "Getting started with Lightspeed POS",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005081987-Getting-started-with-Lightspeed-POS",
+    "tags": [],
+    "views": 0,
+    "rank": 4
+  },
+  {
+    "id": "getting-started-with-rcs",
+    "name": "Getting started with RCS",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/41066240307483-Getting-started-with-RCS",
+    "tags": [],
+    "views": 0,
+    "rank": 5
+  },
+  {
+    "id": "getting-started-with-shopify",
+    "name": "Getting started with Shopify",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005080407-Getting-started-with-Shopify",
+    "tags": [
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 6
+  },
+  {
+    "id": "how-to-create-unique-coupon-codes-for-shopify",
+    "name": "How to create unique coupon codes for Shopify",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115006155388-How-to-create-unique-coupon-codes-for-Shopify",
+    "tags": [
+      "integrations",
+      "shopify",
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 7
+  },
+  {
+    "id": "how-to-create-an-abandoned-cart-flow",
+    "name": "How to create an abandoned cart flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002779411-How-to-create-an-abandoned-cart-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 8
+  },
+  {
+    "id": "getting-started-with-flows",
+    "name": "Getting started with flows",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002774932-Getting-started-with-flows",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 9
+  },
+  {
+    "id": "how-to-use-dynamic-content-in-whatsapp-templates",
+    "name": "How to use dynamic content in WhatsApp templates",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/47295543266715-How-to-use-dynamic-content-in-WhatsApp-templates",
+    "tags": [
+      "templates",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 10
+  },
+  {
+    "id": "getting-started-with-the-whatsapp-deliverability-hub",
+    "name": "Getting started with the WhatsApp deliverability hub",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/47290590424347-Getting-started-with-the-WhatsApp-deliverability-hub",
+    "tags": [
+      "deliverability",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 11
+  },
+  {
+    "id": "getting-started-with-thanx",
+    "name": "Getting started with Thanx",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/19458074597659-Getting-started-with-Thanx",
+    "tags": [],
+    "views": 0,
+    "rank": 12
+  },
+  {
+    "id": "how-to-create-and-manage-multiple-accounts",
+    "name": "How to create and manage multiple accounts",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360002165611-How-to-create-and-manage-multiple-accounts",
+    "tags": [],
+    "views": 0,
+    "rank": 13
+  },
+  {
+    "id": "getting-started-with-portfolios",
+    "name": "Getting started with portfolios",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/24656917054747-Getting-started-with-portfolios",
+    "tags": [],
+    "views": 0,
+    "rank": 14
+  },
+  {
+    "id": "how-to-create-a-whatsapp-automation",
+    "name": "How to create a WhatsApp automation",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/40116727375771-How-to-create-a-WhatsApp-automation",
+    "tags": [
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 15
+  },
+  {
+    "id": "getting-started-with-shopware",
+    "name": "Getting started with Shopware",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/13001662470939-Getting-started-with-Shopware",
+    "tags": [],
+    "views": 0,
+    "rank": 16
+  },
+  {
+    "id": "how-to-add-custom-fonts-in-email-templates",
+    "name": "How to add custom fonts in email templates",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4412748537627-How-to-add-custom-fonts-in-email-templates",
+    "tags": [
+      "email",
+      "templates"
+    ],
+    "views": 0,
+    "rank": 17
+  },
+  {
+    "id": "how-to-manage-your-account-s-api-keys",
+    "name": "How to manage your account's API keys",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005062267-How-to-manage-your-account-s-API-keys",
+    "tags": [
+      "api"
+    ],
+    "views": 0,
+    "rank": 18
+  },
+  {
+    "id": "how-to-set-up-rcs-messaging",
+    "name": "How to set up RCS messaging",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/46581422667035-How-to-set-up-RCS-messaging",
+    "tags": [],
+    "views": 0,
+    "rank": 19
+  },
+  {
+    "id": "getting-started-with-cloudbeds",
+    "name": "Getting started with Cloudbeds",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/39406849361691-Getting-started-with-Cloudbeds",
+    "tags": [],
+    "views": 0,
+    "rank": 20
+  },
+  {
+    "id": "getting-started-with-custom-objects",
+    "name": "Getting started with custom objects",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/35105337172123-Getting-started-with-custom-objects",
+    "tags": [],
+    "views": 0,
+    "rank": 21
+  },
+  {
+    "id": "getting-started-with-magento-2-x-ce-and-ee",
+    "name": "Getting started with Magento 2.x (CE and EE)",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005254348-Getting-started-with-Magento-2-x-CE-and-EE",
+    "tags": [],
+    "views": 0,
+    "rank": 22
+  },
+  {
+    "id": "how-to-create-a-location-based-segment",
+    "name": "How to create a location-based segment",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005065887-How-to-create-a-location-based-segment",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 23
+  },
+  {
+    "id": "how-to-use-shopify-markets-with-klaviyo",
+    "name": "How to use Shopify Markets with Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/45224022467739-How-to-use-Shopify-Markets-with-Klaviyo",
+    "tags": [
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 24
+  },
+  {
+    "id": "how-to-use-the-order-editing-skill",
+    "name": "How to use the Order Editing skill",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/46881677361435-How-to-use-the-Order-Editing-skill",
+    "tags": [],
+    "views": 0,
+    "rank": 25
+  },
+  {
+    "id": "how-to-use-the-returns-and-exchanges-skill",
+    "name": "How to use the Returns and Exchanges skill",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/46881399074331-How-to-use-the-Returns-and-Exchanges-skill",
+    "tags": [],
+    "views": 0,
+    "rank": 26
+  },
+  {
+    "id": "how-to-integrate-with-salesforce-crm",
+    "name": "How to integrate with Salesforce CRM",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005081947-How-to-integrate-with-Salesforce-CRM",
+    "tags": [],
+    "views": 0,
+    "rank": 27
+  },
+  {
+    "id": "how-to-create-an-email-welcome-series",
+    "name": "How to create an email welcome series",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002775172-How-to-create-an-email-welcome-series",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 28
+  },
+  {
+    "id": "how-to-migrate-existing-email-subscribers-and-unsubscribes-i",
+    "name": "How to migrate existing email subscribers (and unsubscribes) into Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005078487-How-to-migrate-existing-email-subscribers-and-unsubscribes-into-Klaviyo",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 29
+  },
+  {
+    "id": "how-to-use-event-data-to-personalize-email-and-sms-flows",
+    "name": "How to use event data to personalize email and SMS flows",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002779071-How-to-use-event-data-to-personalize-email-and-SMS-flows",
+    "tags": [
+      "flows",
+      "email",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 30
+  },
+  {
+    "id": "how-to-track-rcs-opens-in-klaviyo",
+    "name": "How to track RCS opens in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/41073297828379-How-to-track-RCS-opens-in-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 31
+  },
+  {
+    "id": "how-to-create-rich-interactive-rcs-messages-in-klaviyo",
+    "name": "How to create rich interactive RCS messages in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/41072788661531-How-to-create-rich-interactive-RCS-messages-in-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 32
+  },
+  {
+    "id": "how-to-create-an-rcs-message-in-a-flow",
+    "name": "How to create an RCS message in a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/41072681350555-How-to-create-an-RCS-message-in-a-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 33
+  },
+  {
+    "id": "how-to-create-an-rcs-campaign-in-klaviyo",
+    "name": "How to create an RCS campaign in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/41072420801819-How-to-create-an-RCS-campaign-in-Klaviyo",
+    "tags": [
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 34
+  },
+  {
+    "id": "how-to-use-the-rcs-capability-property-in-klaviyo",
+    "name": "How to use the RCS capability property in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/41072989967515-How-to-use-the-RCS-capability-property-in-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 35
+  },
+  {
+    "id": "getting-started-with-advanced-kdp",
+    "name": "Getting started with Advanced KDP",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/17655007276059-Getting-started-with-Advanced-KDP",
+    "tags": [],
+    "views": 0,
+    "rank": 36
+  },
+  {
+    "id": "how-to-import-profile-properties-using-a-csv-upload",
+    "name": "How to import profile properties using a CSV upload",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/1260806293150-How-to-import-profile-properties-using-a-CSV-upload",
+    "tags": [
+      "profiles"
+    ],
+    "views": 0,
+    "rank": 37
+  },
+  {
+    "id": "how-to-create-a-whatsapp-template",
+    "name": "How to create a WhatsApp template",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/40116644987675-How-to-create-a-WhatsApp-template",
+    "tags": [
+      "templates",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 38
+  },
+  {
+    "id": "how-to-create-a-sunset-flow",
+    "name": "How to create a sunset flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360017518492-How-to-create-a-sunset-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 39
+  },
+  {
+    "id": "getting-started-with-mews",
+    "name": "Getting started with Mews",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/38311148860955-Getting-started-with-Mews",
+    "tags": [],
+    "views": 0,
+    "rank": 40
+  },
+  {
+    "id": "how-to-create-a-whatsapp-form-that-targets-email-subscribers",
+    "name": "How to create a WhatsApp form that targets email subscribers",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/46806865948699-How-to-create-a-WhatsApp-form-that-targets-email-subscribers",
+    "tags": [
+      "email",
+      "forms",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 41
+  },
+  {
+    "id": "how-to-create-and-send-a-whatsapp-campaign",
+    "name": "How to create and send a WhatsApp campaign",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/46806615688347-How-to-create-and-send-a-WhatsApp-campaign",
+    "tags": [
+      "campaigns",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 42
+  },
+  {
+    "id": "how-to-use-custom-objects-in-templates",
+    "name": "How to use custom objects in templates",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/35146367972763-How-to-use-custom-objects-in-templates",
+    "tags": [
+      "templates"
+    ],
+    "views": 0,
+    "rank": 43
+  },
+  {
+    "id": "getting-started-with-sign-up-forms",
+    "name": "Getting started with sign-up forms",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360026474752-Getting-started-with-sign-up-forms",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 44
+  },
+  {
+    "id": "getting-started-with-coupon-codes-in-klaviyo",
+    "name": "Getting started with coupon codes in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005084727-Getting-started-with-coupon-codes-in-Klaviyo",
+    "tags": [
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 45
+  },
+  {
+    "id": "how-to-set-up-multi-factor-authentication-mfa",
+    "name": "How to set up multi-factor authentication (MFA)",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360026617692-How-to-set-up-multi-factor-authentication-MFA",
+    "tags": [],
+    "views": 0,
+    "rank": 46
+  },
+  {
+    "id": "how-to-use-product-feeds-and-recommendations",
+    "name": "How to use product feeds and recommendations",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082787-How-to-use-product-feeds-and-recommendations",
+    "tags": [],
+    "views": 0,
+    "rank": 47
+  },
+  {
+    "id": "how-to-build-dynamic-blocks-in-a-flow-email",
+    "name": "How to build dynamic blocks in a flow email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4408802597659-How-to-build-dynamic-blocks-in-a-flow-email",
+    "tags": [
+      "flows",
+      "email"
+    ],
+    "views": 0,
+    "rank": 48
+  },
+  {
+    "id": "how-to-set-up-a-branded-sending-domain",
+    "name": "How to set up a branded sending domain",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115000357752-How-to-set-up-a-branded-sending-domain",
+    "tags": [],
+    "views": 0,
+    "rank": 49
+  },
+  {
+    "id": "getting-started-with-klaviyo-onsite-tracking",
+    "name": "Getting started with Klaviyo onsite tracking",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005076767-Getting-started-with-Klaviyo-onsite-tracking",
+    "tags": [],
+    "views": 0,
+    "rank": 50
+  },
+  {
+    "id": "how-to-import-subscribers-to-a-list",
+    "name": "How to import subscribers to a list",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005251128-How-to-import-subscribers-to-a-list",
+    "tags": [
+      "lists"
+    ],
+    "views": 0,
+    "rank": 51
+  },
+  {
+    "id": "how-to-add-personalization-to-your-messages",
+    "name": "How to add personalization to your messages",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/18986347580827-How-to-add-personalization-to-your-messages",
+    "tags": [],
+    "views": 0,
+    "rank": 52
+  },
+  {
+    "id": "how-to-add-or-change-a-plan-in-klaviyo",
+    "name": "How to add or change a plan in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/8356575957275-How-to-add-or-change-a-plan-in-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 53
+  },
+  {
+    "id": "how-to-create-a-multilingual-email-flow-smart-translations",
+    "name": "How to create a multilingual email flow Smart Translations",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/38069723835547-How-to-create-a-multilingual-email-flow-Smart-Translations",
+    "tags": [
+      "flows",
+      "email"
+    ],
+    "views": 0,
+    "rank": 54
+  },
+  {
+    "id": "how-to-create-a-multilingual-email-campaign-using-smart-tran",
+    "name": "How to create a multilingual email campaign using Smart Translations",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/38069585109787-How-to-create-a-multilingual-email-campaign-using-Smart-Translations",
+    "tags": [
+      "campaigns",
+      "email"
+    ],
+    "views": 0,
+    "rank": 55
+  },
+  {
+    "id": "getting-started-with-custom-monitors",
+    "name": "Getting started with custom monitors",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/27160071187739-Getting-started-with-custom-monitors",
+    "tags": [],
+    "views": 0,
+    "rank": 56
+  },
+  {
+    "id": "getting-started-with-benchmarks-reports",
+    "name": "Getting started with benchmarks reports",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360050110072-Getting-started-with-benchmarks-reports",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 57
+  },
+  {
+    "id": "how-to-create-follow-up-messages-in-omnichannel-campaigns",
+    "name": "How to create follow-up messages in omnichannel campaigns",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/46770313016987-How-to-create-follow-up-messages-in-omnichannel-campaigns",
+    "tags": [
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 58
+  },
+  {
+    "id": "how-to-manage-email-suppressions-and-delete-profiles-in-bulk",
+    "name": "How to manage email suppressions and delete profiles in bulk",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/24312135764251-How-to-manage-email-suppressions-and-delete-profiles-in-bulk",
+    "tags": [
+      "email",
+      "profiles"
+    ],
+    "views": 0,
+    "rank": 59
+  },
+  {
+    "id": "how-to-use-smart-opt-in-to-collect-sms-consent-in-sign-up-fo",
+    "name": "How to use Smart Opt-in to collect SMS consent in sign-up forms",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/24743883751451-How-to-use-Smart-Opt-in-to-collect-SMS-consent-in-sign-up-forms",
+    "tags": [
+      "sms",
+      "forms"
+    ],
+    "views": 0,
+    "rank": 60
+  },
+  {
+    "id": "how-to-create-and-send-an-email-campaign",
+    "name": "How to create and send an email campaign",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005054847-How-to-create-and-send-an-email-campaign",
+    "tags": [
+      "campaigns",
+      "email"
+    ],
+    "views": 0,
+    "rank": 61
+  },
+  {
+    "id": "how-to-customize-content-based-on-language",
+    "name": "How to customize content based on language",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005239028-How-to-customize-content-based-on-language",
+    "tags": [],
+    "views": 0,
+    "rank": 62
+  },
+  {
+    "id": "how-to-send-transactional-whatsapp-messages",
+    "name": "How to send transactional WhatsApp messages",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/46625983798299-How-to-send-transactional-WhatsApp-messages",
+    "tags": [
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 63
+  },
+  {
+    "id": "how-to-add-whatsapp-to-your-abandoned-cart-flow",
+    "name": "How to add WhatsApp to your abandoned cart flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/46623602305563-How-to-add-WhatsApp-to-your-abandoned-cart-flow",
+    "tags": [
+      "flows",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 64
+  },
+  {
+    "id": "how-to-create-a-whatsapp-welcome-flow",
+    "name": "How to create a WhatsApp welcome flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/46622708677531-How-to-create-a-WhatsApp-welcome-flow",
+    "tags": [
+      "flows",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 65
+  },
+  {
+    "id": "how-to-add-whatsapp-to-your-browse-abandonment-flow",
+    "name": "How to add WhatsApp to your browse abandonment flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/46624475312539-How-to-add-WhatsApp-to-your-browse-abandonment-flow",
+    "tags": [
+      "flows",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 66
+  },
+  {
+    "id": "how-to-add-whatsapp-to-a-post-purchase-flow",
+    "name": "How to add WhatsApp to a post-purchase flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/46623169258139-How-to-add-WhatsApp-to-a-post-purchase-flow",
+    "tags": [
+      "flows",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 67
+  },
+  {
+    "id": "getting-started-with-woocommerce",
+    "name": "Getting started with WooCommerce",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005255808-Getting-started-with-WooCommerce",
+    "tags": [
+      "integrations"
+    ],
+    "views": 0,
+    "rank": 68
+  },
+  {
+    "id": "how-to-send-a-push-notification-campaign",
+    "name": "How to send a push notification campaign",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360006653972-How-to-send-a-push-notification-campaign",
+    "tags": [
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 69
+  },
+  {
+    "id": "how-to-create-an-sms-and-rcs-automation",
+    "name": "How to create an SMS and RCS  automation",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/34158785231515-How-to-create-an-SMS-and-RCS-automation",
+    "tags": [
+      "sms"
+    ],
+    "views": 0,
+    "rank": 70
+  },
+  {
+    "id": "getting-started-with-gorgias",
+    "name": "Getting started with Gorgias",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4408023789083-Getting-started-with-Gorgias",
+    "tags": [],
+    "views": 0,
+    "rank": 71
+  },
+  {
+    "id": "how-to-add-past-profiles-to-a-flow",
+    "name": "How to add past profiles to a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360049924272-How-to-add-past-profiles-to-a-flow",
+    "tags": [
+      "flows",
+      "profiles"
+    ],
+    "views": 0,
+    "rank": 72
+  },
+  {
+    "id": "how-to-create-a-price-drop-flow",
+    "name": "How to create a price drop flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4404249033755-How-to-create-a-price-drop-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 73
+  },
+  {
+    "id": "getting-started-with-canva",
+    "name": "Getting started with Canva",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/23364424365339-Getting-started-with-Canva",
+    "tags": [],
+    "views": 0,
+    "rank": 74
+  },
+  {
+    "id": "how-to-build-a-birthday-flow",
+    "name": "How to build a birthday flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360054242492-How-to-build-a-birthday-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 75
+  },
+  {
+    "id": "how-to-manage-messages-within-a-flow",
+    "name": "How to manage messages within a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002779271-How-to-manage-messages-within-a-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 76
+  },
+  {
+    "id": "how-to-integrate-with-shipstation",
+    "name": "How to integrate with ShipStation",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360028298592-How-to-integrate-with-ShipStation",
+    "tags": [],
+    "views": 0,
+    "rank": 77
+  },
+  {
+    "id": "how-to-create-a-multilingual-push-notification-flow-with-sma",
+    "name": "How to create a multilingual push notification flow with Smart Translations",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/45651952586139-How-to-create-a-multilingual-push-notification-flow-with-Smart-Translations",
+    "tags": [
+      "flows",
+      "push",
+      "push notifications",
+      "setup push notifications",
+      "translate",
+      "translating",
+      "push notification"
+    ],
+    "views": 0,
+    "rank": 78
+  },
+  {
+    "id": "how-to-create-a-multilingual-whatsapp-campaign-using-smart-t",
+    "name": "How to create a multilingual WhatsApp campaign using Smart Translations",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/45620280376091-How-to-create-a-multilingual-WhatsApp-campaign-using-Smart-Translations",
+    "tags": [
+      "campaigns",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 79
+  },
+  {
+    "id": "how-to-manage-translations-in-bulk-with-csv",
+    "name": "How to manage translations in bulk with CSV",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/45085617755931-How-to-manage-translations-in-bulk-with-CSV",
+    "tags": [],
+    "views": 0,
+    "rank": 80
+  },
+  {
+    "id": "how-to-create-a-multilingual-push-notification-campaign-usin",
+    "name": "How to create a multilingual push notification campaign using Smart Translations",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/45609327372571-How-to-create-a-multilingual-push-notification-campaign-using-Smart-Translations",
+    "tags": [
+      "campaigns",
+      "translate",
+      "translating",
+      "push campaigns",
+      "push notification"
+    ],
+    "views": 0,
+    "rank": 81
+  },
+  {
+    "id": "how-to-create-a-fulfilled-partial-order-flow-for-shopify",
+    "name": "How to create a fulfilled partial order flow for Shopify",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4401771131419-How-to-create-a-fulfilled-partial-order-flow-for-Shopify",
+    "tags": [
+      "flows",
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 82
+  },
+  {
+    "id": "getting-started-with-prestashop",
+    "name": "Getting started with PrestaShop",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360054551492-Getting-started-with-PrestaShop",
+    "tags": [],
+    "views": 0,
+    "rank": 83
+  },
+  {
+    "id": "how-to-set-up-a-back-in-stock-form",
+    "name": "How to set up a back in stock form",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/38767539287323-How-to-set-up-a-back-in-stock-form",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 84
+  },
+  {
+    "id": "how-to-upload-a-list-of-whatsapp-contacts",
+    "name": "How to upload a list of WhatsApp contacts",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/40116243735579-How-to-upload-a-list-of-WhatsApp-contacts",
+    "tags": [
+      "lists",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 85
+  },
+  {
+    "id": "getting-started-with-landing-pages",
+    "name": "Getting started with Landing Pages",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/45373923808155-Getting-started-with-Landing-Pages",
+    "tags": [],
+    "views": 0,
+    "rank": 86
+  },
+  {
+    "id": "how-to-enable-smart-translations",
+    "name": "How to enable Smart Translations",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/38068161225243-How-to-enable-Smart-Translations",
+    "tags": [],
+    "views": 0,
+    "rank": 87
+  },
+  {
+    "id": "how-to-create-a-multilingual-sms-campaign-using-smart-transl",
+    "name": "How to create a multilingual SMS campaign using Smart Translations",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/39896599432347-How-to-create-a-multilingual-SMS-campaign-using-Smart-Translations",
+    "tags": [
+      "campaigns",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 88
+  },
+  {
+    "id": "getting-started-with-toast",
+    "name": "Getting started with Toast",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/24302505547163-Getting-started-with-Toast",
+    "tags": [],
+    "views": 0,
+    "rank": 89
+  },
+  {
+    "id": "how-to-use-custom-objects-in-flows",
+    "name": "How to use custom objects in flows",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/35146374047515-How-to-use-custom-objects-in-flows",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 90
+  },
+  {
+    "id": "how-to-create-a-sending-schedule-based-on-sms-engagement",
+    "name": "How to create a sending schedule based on SMS engagement",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360044556071-How-to-create-a-sending-schedule-based-on-SMS-engagement",
+    "tags": [
+      "sms"
+    ],
+    "views": 0,
+    "rank": 91
+  },
+  {
+    "id": "getting-started-with-customer-hub",
+    "name": "Getting started with Customer Hub",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33660324811675-Getting-started-with-Customer-Hub",
+    "tags": [],
+    "views": 0,
+    "rank": 92
+  },
+  {
+    "id": "how-to-set-up-coupons-for-bigcommerce",
+    "name": "How to set up coupons for BigCommerce",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360022884472-How-to-set-up-coupons-for-BigCommerce",
+    "tags": [
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 93
+  },
+  {
+    "id": "getting-started-with-geofences",
+    "name": "Getting started with geofences",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/45194892526747-Getting-started-with-geofences",
+    "tags": [],
+    "views": 0,
+    "rank": 94
+  },
+  {
+    "id": "getting-started-with-omnichannel-campaigns",
+    "name": "Getting started with omnichannel campaigns",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/40939669530011-Getting-started-with-omnichannel-campaigns",
+    "tags": [
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 95
+  },
+  {
+    "id": "how-to-use-the-klaviyo-app-for-chatgpt",
+    "name": "How to use the Klaviyo app for ChatGPT",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/44510690715931-How-to-use-the-Klaviyo-app-for-ChatGPT",
+    "tags": [],
+    "views": 0,
+    "rank": 96
+  },
+  {
+    "id": "how-to-migrate-from-yotpo-to-klaviyo",
+    "name": "How to migrate from Yotpo to Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/39598076123547-How-to-migrate-from-Yotpo-to-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 97
+  },
+  {
+    "id": "how-to-set-up-gofundme-pro-campaigns-and-flows",
+    "name": "How to set up GoFundMe Pro campaigns and flows",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005255868-How-to-set-up-GoFundMe-Pro-campaigns-and-flows",
+    "tags": [
+      "flows",
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 98
+  },
+  {
+    "id": "getting-started-with-gofundme-pro",
+    "name": "Getting started with GoFundMe Pro",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005083387-Getting-started-with-GoFundMe-Pro",
+    "tags": [],
+    "views": 0,
+    "rank": 99
+  },
+  {
+    "id": "how-to-use-klaviyo-s-subject-line-assistant",
+    "name": "How to use Klaviyo’s subject line assistant",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/5051278887835-How-to-use-Klaviyo-s-subject-line-assistant",
+    "tags": [],
+    "views": 0,
+    "rank": 100
+  },
+  {
+    "id": "how-to-create-and-use-macros-for-helpdesk-tickets",
+    "name": "How to create and use macros for Helpdesk tickets",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4995667413531-How-to-create-and-use-macros-for-Helpdesk-tickets",
+    "tags": [],
+    "views": 0,
+    "rank": 101
+  },
+  {
+    "id": "how-to-migrate-from-constant-contact",
+    "name": "How to migrate from Constant Contact",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082727-How-to-migrate-from-Constant-Contact",
+    "tags": [],
+    "views": 0,
+    "rank": 102
+  },
+  {
+    "id": "getting-started-with-guesty",
+    "name": "Getting started with Guesty",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/37673288455323-Getting-started-with-Guesty",
+    "tags": [],
+    "views": 0,
+    "rank": 103
+  },
+  {
+    "id": "how-to-create-a-custom-user-role",
+    "name": "How to create a custom user role",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/40493034144795-How-to-create-a-custom-user-role",
+    "tags": [
+      "user management",
+      "user",
+      "user roles"
+    ],
+    "views": 0,
+    "rank": 104
+  },
+  {
+    "id": "how-to-integrate-with-bloomerang-fundraising",
+    "name": "How to integrate with Bloomerang Fundraising",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082847-How-to-integrate-with-Bloomerang-Fundraising",
+    "tags": [],
+    "views": 0,
+    "rank": 105
+  },
+  {
+    "id": "getting-started-with-the-product-analysis-dashboard",
+    "name": "Getting started with the product analysis dashboard",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/26685770823451-Getting-started-with-the-product-analysis-dashboard",
+    "tags": [],
+    "views": 0,
+    "rank": 106
+  },
+  {
+    "id": "how-to-upload-a-list-of-sms-contacts",
+    "name": "How to upload a list of SMS contacts",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360035428731-How-to-upload-a-list-of-SMS-contacts",
+    "tags": [
+      "sms",
+      "lists"
+    ],
+    "views": 0,
+    "rank": 107
+  },
+  {
+    "id": "how-to-use-ticket-tagging-in-helpdesk",
+    "name": "How to use ticket tagging in Helpdesk",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/39692891402907-How-to-use-ticket-tagging-in-Helpdesk",
+    "tags": [],
+    "views": 0,
+    "rank": 108
+  },
+  {
+    "id": "how-to-configure-advanced-routing-rules-in-klaviyo-helpdesk",
+    "name": "How to Configure Advanced Routing Rules in Klaviyo Helpdesk",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/44439107908635-How-to-Configure-Advanced-Routing-Rules-in-Klaviyo-Helpdesk",
+    "tags": [],
+    "views": 0,
+    "rank": 109
+  },
+  {
+    "id": "how-to-create-outbound-tickets-and-log-phone-calls-in-helpde",
+    "name": "How to create outbound tickets and log Phone Calls in Helpdesk",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/44438101121563-How-to-create-outbound-tickets-and-log-Phone-Calls-in-Helpdesk",
+    "tags": [],
+    "views": 0,
+    "rank": 110
+  },
+  {
+    "id": "how-to-create-a-custom-ticket-view-in-helpdesk",
+    "name": "How to create a custom ticket view in Helpdesk",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/39691102278043-How-to-create-a-custom-ticket-view-in-Helpdesk",
+    "tags": [],
+    "views": 0,
+    "rank": 111
+  },
+  {
+    "id": "how-to-edit-and-delete-macros",
+    "name": "How to edit and delete macros",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4998792999963-How-to-edit-and-delete-macros",
+    "tags": [],
+    "views": 0,
+    "rank": 112
+  },
+  {
+    "id": "how-to-connect-loop-returns-to-klaviyo-helpdesk",
+    "name": "How to connect Loop Returns to Klaviyo Helpdesk",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/44439474248603-How-to-connect-Loop-Returns-to-Klaviyo-Helpdesk",
+    "tags": [],
+    "views": 0,
+    "rank": 113
+  },
+  {
+    "id": "how-to-migrate-from-another-whatsapp-business-solution-provi",
+    "name": "How to migrate from another WhatsApp Business Solution Provider to Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/40116637850651-How-to-migrate-from-another-WhatsApp-Business-Solution-Provider-to-Klaviyo",
+    "tags": [
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 114
+  },
+  {
+    "id": "how-to-connect-your-whatsapp-business-account-to-klaviyo",
+    "name": "How to connect your WhatsApp Business account to Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/40111819732635-How-to-connect-your-WhatsApp-Business-account-to-Klaviyo",
+    "tags": [
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 115
+  },
+  {
+    "id": "getting-started-with-consent-pages",
+    "name": "Getting started with consent pages",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005251848-Getting-started-with-consent-pages",
+    "tags": [],
+    "views": 0,
+    "rank": 116
+  },
+  {
+    "id": "how-to-create-and-target-a-segment-of-recent-cart-abandoners",
+    "name": "How to create and target a segment of recent cart abandoners",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360032334511-How-to-create-and-target-a-segment-of-recent-cart-abandoners",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 117
+  },
+  {
+    "id": "how-to-set-up-single-sign-on-sso",
+    "name": "How to set up single sign-on (SSO)",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/9353860331035-How-to-set-up-single-sign-on-SSO",
+    "tags": [],
+    "views": 0,
+    "rank": 118
+  },
+  {
+    "id": "how-to-configure-office-hours-for-web-chat",
+    "name": "How to configure office hours for web chat",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/38298315322907-How-to-configure-office-hours-for-web-chat",
+    "tags": [],
+    "views": 0,
+    "rank": 119
+  },
+  {
+    "id": "how-to-update-customer-agent-handoff-settings",
+    "name": "How to update Customer Agent handoff settings",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/37659474656027-How-to-update-Customer-Agent-handoff-settings",
+    "tags": [],
+    "views": 0,
+    "rank": 120
+  },
+  {
+    "id": "getting-started-with-web-chat",
+    "name": "Getting started with web chat",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33660391549211-Getting-started-with-web-chat",
+    "tags": [],
+    "views": 0,
+    "rank": 121
+  },
+  {
+    "id": "getting-started-with-klaviyo-s-customer-agent",
+    "name": "Getting started with Klaviyo's Customer Agent",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/37659268052635-Getting-started-with-Klaviyo-s-Customer-Agent",
+    "tags": [],
+    "views": 0,
+    "rank": 122
+  },
+  {
+    "id": "how-to-customize-benchmark-pages",
+    "name": "How to customize benchmark pages",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360051715391-How-to-customize-benchmark-pages",
+    "tags": [],
+    "views": 0,
+    "rank": 123
+  },
+  {
+    "id": "how-to-build-a-flows-performance-report",
+    "name": "How to build a flows performance report",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360047044892-How-to-build-a-flows-performance-report",
+    "tags": [
+      "flows",
+      "forms",
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 124
+  },
+  {
+    "id": "how-to-build-a-campaign-performance-report",
+    "name": "How to build a campaign performance report",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360047022912-How-to-build-a-campaign-performance-report",
+    "tags": [
+      "campaigns",
+      "forms",
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 125
+  },
+  {
+    "id": "getting-started-with-reporting",
+    "name": "Getting started with reporting",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360047399472-Getting-started-with-reporting",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 126
+  },
+  {
+    "id": "getting-started-with-custom-reports-in-klaviyo",
+    "name": "Getting started with custom reports in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360047725651-Getting-started-with-custom-reports-in-Klaviyo",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 127
+  },
+  {
+    "id": "getting-started-with-a-custom-reporting-strategy",
+    "name": "Getting started with a custom reporting strategy",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360046757411-Getting-started-with-a-custom-reporting-strategy",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 128
+  },
+  {
+    "id": "how-to-configure-custom-reports-to-track-apple-mail-privacy-",
+    "name": "How to configure custom reports to track Apple Mail Privacy Protection (MPP) opens",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4416803987739-How-to-configure-custom-reports-to-track-Apple-Mail-Privacy-Protection-MPP-opens",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 129
+  },
+  {
+    "id": "how-to-build-a-single-metric-deep-dive-report",
+    "name": "How to build a single metric deep dive report",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360046242952-How-to-build-a-single-metric-deep-dive-report",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 130
+  },
+  {
+    "id": "how-to-build-a-multi-metric-report",
+    "name": "How to build a multi-metric report",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360046234772-How-to-build-a-multi-metric-report",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 131
+  },
+  {
+    "id": "how-to-use-coupon-retrieval-with-the-customer-agent",
+    "name": "How to use coupon retrieval with the Customer Agent",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/44177833708571-How-to-use-coupon-retrieval-with-the-Customer-Agent",
+    "tags": [
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 132
+  },
+  {
+    "id": "how-to-manage-your-sign-up-forms",
+    "name": "How to manage your sign-up forms",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360002049952-How-to-manage-your-sign-up-forms",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 133
+  },
+  {
+    "id": "getting-started-with-bigcommerce",
+    "name": "Getting started with BigCommerce",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082547-Getting-started-with-BigCommerce",
+    "tags": [],
+    "views": 0,
+    "rank": 134
+  },
+  {
+    "id": "how-to-use-event-funnels-in-segmentation",
+    "name": "How to use event funnels in segmentation",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/42691974773147-How-to-use-event-funnels-in-segmentation",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 135
+  },
+  {
+    "id": "getting-started-with-segments",
+    "name": "Getting started with segments",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005237908-Getting-started-with-segments",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 136
+  },
+  {
+    "id": "getting-started-with-zendesk",
+    "name": "Getting started with Zendesk",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005253728-Getting-started-with-Zendesk",
+    "tags": [],
+    "views": 0,
+    "rank": 137
+  },
+  {
+    "id": "how-to-update-your-zendesk-integration",
+    "name": "How to update your Zendesk integration",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/36093629173147-How-to-update-your-Zendesk-integration",
+    "tags": [
+      "integrations"
+    ],
+    "views": 0,
+    "rank": 138
+  },
+  {
+    "id": "how-to-update-your-billing-address-or-billing-email-address",
+    "name": "How to update your billing address or billing email address",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/1260805043069-How-to-update-your-billing-address-or-billing-email-address",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 139
+  },
+  {
+    "id": "how-to-add-utm-tracking-to-campaigns-and-flows",
+    "name": "How to add UTM tracking to campaigns and flows",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360053921252-How-to-add-UTM-tracking-to-campaigns-and-flows",
+    "tags": [
+      "flows",
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 140
+  },
+  {
+    "id": "how-to-set-up-the-add-to-cart-widget-in-customer-hub",
+    "name": "How to set up the Add to Cart Widget in Customer Hub",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/42782506830107-How-to-set-up-the-Add-to-Cart-Widget-in-Customer-Hub",
+    "tags": [],
+    "views": 0,
+    "rank": 141
+  },
+  {
+    "id": "how-to-create-content-blocks-for-customer-hub",
+    "name": "How to create content blocks for Customer Hub",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33660517680795-How-to-create-content-blocks-for-Customer-Hub",
+    "tags": [],
+    "views": 0,
+    "rank": 142
+  },
+  {
+    "id": "how-to-add-a-product-block-to-an-email",
+    "name": "How to add a product block to an email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115000219092-How-to-add-a-product-block-to-an-email",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 143
+  },
+  {
+    "id": "how-to-sync-shopify-email-subscribers-to-a-klaviyo-list",
+    "name": "How to sync Shopify email subscribers to a Klaviyo list",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005080667-How-to-sync-Shopify-email-subscribers-to-a-Klaviyo-list",
+    "tags": [
+      "email",
+      "integrations",
+      "shopify",
+      "lists"
+    ],
+    "views": 0,
+    "rank": 144
+  },
+  {
+    "id": "how-to-sync-shopify-account-registration-customers-to-a-list",
+    "name": "How to sync Shopify account registration customers to a list",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4403349019163-How-to-sync-Shopify-account-registration-customers-to-a-list",
+    "tags": [
+      "integrations",
+      "shopify",
+      "lists"
+    ],
+    "views": 0,
+    "rank": 145
+  },
+  {
+    "id": "how-to-sync-data-from-klaviyo-to-shopify",
+    "name": "How to sync data from Klaviyo to Shopify",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360030919351-How-to-sync-data-from-Klaviyo-to-Shopify",
+    "tags": [
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 146
+  },
+  {
+    "id": "how-to-add-historical-shopify-sms-subscribers-to-your-list",
+    "name": "How to add historical Shopify SMS subscribers to your list",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/25184840445467-How-to-add-historical-Shopify-SMS-subscribers-to-your-list",
+    "tags": [
+      "sms",
+      "integrations",
+      "shopify",
+      "lists"
+    ],
+    "views": 0,
+    "rank": 147
+  },
+  {
+    "id": "how-to-set-up-extended-id-cookie-tracking",
+    "name": "How to set up extended ID cookie tracking",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32053410094619-How-to-set-up-extended-ID-cookie-tracking",
+    "tags": [],
+    "views": 0,
+    "rank": 148
+  },
+  {
+    "id": "how-to-manage-users-in-bulk-across-a-portfolio",
+    "name": "How to manage users in bulk across a portfolio",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/44579003241499-How-to-manage-users-in-bulk-across-a-portfolio",
+    "tags": [
+      "portfolio",
+      "portfolio user"
+    ],
+    "views": 0,
+    "rank": 149
+  },
+  {
+    "id": "how-to-use-customer-hub-with-shopify-markets",
+    "name": "How to use Customer Hub with Shopify Markets",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/44768355991195-How-to-use-Customer-Hub-with-Shopify-Markets",
+    "tags": [
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 150
+  },
+  {
+    "id": "how-to-enable-onsite-tracking-for-shopify",
+    "name": "How to enable onsite tracking for Shopify",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4425956184731-How-to-enable-onsite-tracking-for-Shopify",
+    "tags": [
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 151
+  },
+  {
+    "id": "getting-started-with-sms-automations",
+    "name": "Getting started with SMS automations",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/34158391513627-Getting-started-with-SMS-automations",
+    "tags": [
+      "sms"
+    ],
+    "views": 0,
+    "rank": 152
+  },
+  {
+    "id": "how-to-create-a-segment-or-list-triggered-flow",
+    "name": "How to create a segment- or list-triggered flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360003040052-How-to-create-a-segment-or-list-triggered-flow",
+    "tags": [
+      "segments",
+      "flows",
+      "lists"
+    ],
+    "views": 0,
+    "rank": 153
+  },
+  {
+    "id": "how-to-create-a-click-to-whatsapp-ad-with-a-subscribe-keywor",
+    "name": "How to create a Click-to-WhatsApp ad with a “Subscribe” keyword",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/42146376607003-How-to-create-a-Click-to-WhatsApp-ad-with-a-Subscribe-keyword",
+    "tags": [
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 154
+  },
+  {
+    "id": "how-to-configure-google-analytics-event-tracking-for-a-sign-",
+    "name": "How to configure Google Analytics event tracking for a sign-up form",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005077027-How-to-configure-Google-Analytics-event-tracking-for-a-sign-up-form",
+    "tags": [
+      "forms",
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 155
+  },
+  {
+    "id": "how-to-set-up-dedicated-click-tracking",
+    "name": "How to set up dedicated click tracking",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360001550572-How-to-set-up-dedicated-click-tracking",
+    "tags": [],
+    "views": 0,
+    "rank": 156
+  },
+  {
+    "id": "how-to-use-a-table-block-in-an-email",
+    "name": "How to use a table block in an email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32908976218779-How-to-use-a-table-block-in-an-email",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 157
+  },
+  {
+    "id": "how-to-add-a-favorites-link-icon-text-or-button-to-your-shop",
+    "name": "How to add a Favorites link (icon, text, or button) to your Shopify header",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/43956692620059-How-to-add-a-Favorites-link-icon-text-or-button-to-your-Shopify-header",
+    "tags": [
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 158
+  },
+  {
+    "id": "how-to-create-a-post-purchase-flow",
+    "name": "How to create a post-purchase flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360028872611-How-to-create-a-post-purchase-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 159
+  },
+  {
+    "id": "how-to-connect-your-returns-provider-to-customer-hub",
+    "name": "How to connect your returns provider to Customer Hub",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33660683592603-How-to-connect-your-returns-provider-to-Customer-Hub",
+    "tags": [],
+    "views": 0,
+    "rank": 160
+  },
+  {
+    "id": "getting-started-with-dutchie-pos",
+    "name": "Getting started with Dutchie POS",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/22698258709531-Getting-started-with-Dutchie-POS",
+    "tags": [],
+    "views": 0,
+    "rank": 161
+  },
+  {
+    "id": "how-to-connect-your-subscriptions-provider-to-customer-hub",
+    "name": "How to connect your subscriptions provider to Customer Hub",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/39786250669083-How-to-connect-your-subscriptions-provider-to-Customer-Hub",
+    "tags": [],
+    "views": 0,
+    "rank": 162
+  },
+  {
+    "id": "how-to-use-sign-up-forms-to-offer-tiered-discounts",
+    "name": "How to use sign-up forms to offer tiered discounts",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360034336572-How-to-use-sign-up-forms-to-offer-tiered-discounts",
+    "tags": [
+      "forms",
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 163
+  },
+  {
+    "id": "how-to-use-shopify-tags-to-filter-customers",
+    "name": "How to use Shopify tags to filter customers",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005080907-How-to-use-Shopify-tags-to-filter-customers",
+    "tags": [
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 164
+  },
+  {
+    "id": "how-to-use-custom-objects-in-segments",
+    "name": "How to use custom objects in segments",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/35146339009691-How-to-use-custom-objects-in-segments",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 165
+  },
+  {
+    "id": "how-to-migrate-from-salesforce-marketing-cloud",
+    "name": "How to migrate from Salesforce Marketing Cloud",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115000267471-How-to-migrate-from-Salesforce-Marketing-Cloud",
+    "tags": [],
+    "views": 0,
+    "rank": 166
+  },
+  {
+    "id": "how-to-enable-advanced-targeting-on-facebook-and-instagram",
+    "name": "How to enable advanced targeting on Facebook and Instagram",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360039769672-How-to-enable-advanced-targeting-on-Facebook-and-Instagram",
+    "tags": [],
+    "views": 0,
+    "rank": 167
+  },
+  {
+    "id": "how-to-migrate-from-sailthru",
+    "name": "How to migrate from Sailthru",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360036945872-How-to-migrate-from-Sailthru",
+    "tags": [],
+    "views": 0,
+    "rank": 168
+  },
+  {
+    "id": "how-to-integrate-with-zoho",
+    "name": "How to integrate with Zoho",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005081687-How-to-integrate-with-Zoho",
+    "tags": [],
+    "views": 0,
+    "rank": 169
+  },
+  {
+    "id": "how-to-create-segments-based-on-birthdays",
+    "name": "How to create segments based on birthdays",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360054684072-How-to-create-segments-based-on-birthdays",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 170
+  },
+  {
+    "id": "how-to-create-a-segment-of-vip-customers",
+    "name": "How to create a segment of VIP customers",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005065707-How-to-create-a-segment-of-VIP-customers",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 171
+  },
+  {
+    "id": "how-to-create-a-retention-flow-triggered-off-of-rfm-groups-a",
+    "name": "How to create a retention flow triggered off of RFM groups and customer behavior changes",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/25408596027547-How-to-create-a-retention-flow-triggered-off-of-RFM-groups-and-customer-behavior-changes",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 172
+  },
+  {
+    "id": "how-to-build-a-segment-using-rfm-properties",
+    "name": "How to build a segment using RFM properties",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/18193920339483-How-to-build-a-segment-using-RFM-properties",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 173
+  },
+  {
+    "id": "how-to-use-wix-contact-labels-to-segment-customers",
+    "name": "How to use Wix contact labels to segment customers",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/19097191216283-How-to-use-Wix-contact-labels-to-segment-customers",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 174
+  },
+  {
+    "id": "how-to-add-a-conditional-split-to-a-flow",
+    "name": "How to add a conditional split to a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115003872171-How-to-add-a-conditional-split-to-a-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 175
+  },
+  {
+    "id": "getting-started-with-unbounce",
+    "name": "Getting started with Unbounce",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082507-Getting-started-with-Unbounce",
+    "tags": [],
+    "views": 0,
+    "rank": 176
+  },
+  {
+    "id": "getting-started-with-the-recency-frequency-and-monetary-rfm-",
+    "name": "Getting started with the recency, frequency, and monetary (RFM) analysis report",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/17797889315355-Getting-started-with-the-recency-frequency-and-monetary-RFM-analysis-report",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 177
+  },
+  {
+    "id": "how-to-create-a-nurture-flow-for-rfm-champions",
+    "name": "How to create a nurture flow for RFM champions",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32756348967323-How-to-create-a-nurture-flow-for-RFM-champions",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 178
+  },
+  {
+    "id": "how-to-build-a-customer-lifetime-value-clv-dashboard",
+    "name": "How to build a customer lifetime value (CLV) dashboard",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/17797912816795-How-to-build-a-customer-lifetime-value-CLV-dashboard",
+    "tags": [],
+    "views": 0,
+    "rank": 179
+  },
+  {
+    "id": "getting-started-with-the-funnel-analysis-report",
+    "name": "Getting started with the funnel analysis report",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/17798009376155-Getting-started-with-the-funnel-analysis-report",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 180
+  },
+  {
+    "id": "how-to-create-a-nurture-flow-for-recent-rfm-customers",
+    "name": "How to create a nurture flow for recent RFM customers",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32786564072347-How-to-create-a-nurture-flow-for-recent-RFM-customers",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 181
+  },
+  {
+    "id": "how-to-create-a-churn-prevention-flow-using-rfm-properties",
+    "name": "How to create a churn prevention flow using RFM properties",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32652195725083-How-to-create-a-churn-prevention-flow-using-RFM-properties",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 182
+  },
+  {
+    "id": "getting-started-with-the-audience-performance-dashboard",
+    "name": "Getting started with the audience performance dashboard",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/17798068936219-Getting-started-with-the-audience-performance-dashboard",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 183
+  },
+  {
+    "id": "how-to-use-rfm-groups-for-targeted-advertising",
+    "name": "How to use RFM groups for targeted advertising",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33389382848155-How-to-use-RFM-groups-for-targeted-advertising",
+    "tags": [],
+    "views": 0,
+    "rank": 184
+  },
+  {
+    "id": "getting-started-with-code",
+    "name": "Getting started with Code",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/18620644491035-Getting-started-with-Code",
+    "tags": [],
+    "views": 0,
+    "rank": 185
+  },
+  {
+    "id": "getting-started-with-mindbody",
+    "name": "Getting started with Mindbody",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/15348624462747-Getting-started-with-Mindbody",
+    "tags": [],
+    "views": 0,
+    "rank": 186
+  },
+  {
+    "id": "how-to-create-faqs-for-your-customer-hub-and-product-pages",
+    "name": "How to create FAQs for your Customer Hub and product pages",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/36400427885979-How-to-create-FAQs-for-your-Customer-Hub-and-product-pages",
+    "tags": [],
+    "views": 0,
+    "rank": 187
+  },
+  {
+    "id": "how-to-update-your-credit-card-information",
+    "name": "How to update your credit card information",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005232048-How-to-update-your-credit-card-information",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 188
+  },
+  {
+    "id": "how-to-create-a-spin-to-win-sign-up-form",
+    "name": "How to create a spin-to-win sign-up form",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/34614633330075-How-to-create-a-spin-to-win-sign-up-form",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 189
+  },
+  {
+    "id": "how-to-create-a-back-in-stock-flow-for-shopware",
+    "name": "How to create a back in stock flow for Shopware",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/13325405718939-How-to-create-a-back-in-stock-flow-for-Shopware",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 190
+  },
+  {
+    "id": "getting-started-with-report-builder-in-beta",
+    "name": "Getting started with Report builder (in beta)",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/42789551068699-Getting-started-with-Report-builder-in-beta",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 191
+  },
+  {
+    "id": "how-to-add-coupon-codes-to-sign-up-forms",
+    "name": "How to add coupon codes to sign-up forms",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/6038674938523-How-to-add-coupon-codes-to-sign-up-forms",
+    "tags": [
+      "forms",
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 192
+  },
+  {
+    "id": "getting-started-with-marketing-analytics",
+    "name": "Getting started with Marketing Analytics",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33789259613595-Getting-started-with-Marketing-Analytics",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 193
+  },
+  {
+    "id": "how-to-remove-spam-traps-from-your-account",
+    "name": "How to remove spam traps from your account",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360015537111-How-to-remove-spam-traps-from-your-account",
+    "tags": [],
+    "views": 0,
+    "rank": 194
+  },
+  {
+    "id": "how-to-create-segments-directly-from-funnels",
+    "name": "How to create segments directly from funnels",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/42766438882075-How-to-create-segments-directly-from-funnels",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 195
+  },
+  {
+    "id": "how-to-set-up-ios-universal-links-and-android-app-links",
+    "name": "How to set up iOS universal links and Android App Links",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/41701832186523-How-to-set-up-iOS-universal-links-and-Android-App-Links",
+    "tags": [],
+    "views": 0,
+    "rank": 196
+  },
+  {
+    "id": "how-to-create-a-branded-shortened-link-for-sms",
+    "name": "How to create a branded shortened link for SMS",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/17649597637147-How-to-create-a-branded-shortened-link-for-SMS",
+    "tags": [
+      "sms"
+    ],
+    "views": 0,
+    "rank": 197
+  },
+  {
+    "id": "how-to-use-email-sms-and-push-together",
+    "name": "How to use email, SMS, and push together",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/18681129051803-How-to-use-email-SMS-and-push-together",
+    "tags": [
+      "email",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 198
+  },
+  {
+    "id": "how-to-add-a-help-button-to-the-customer-hub-orders-tab",
+    "name": "How to add a help button to the Customer Hub orders tab",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33660636674843-How-to-add-a-help-button-to-the-Customer-Hub-orders-tab",
+    "tags": [],
+    "views": 0,
+    "rank": 199
+  },
+  {
+    "id": "how-to-use-the-marketing-agent",
+    "name": "How to use the marketing agent",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/40992879084059-How-to-use-the-marketing-agent",
+    "tags": [],
+    "views": 0,
+    "rank": 200
+  },
+  {
+    "id": "how-to-migrate-off-of-klaviyo",
+    "name": "How to migrate off of Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4401830387099-How-to-migrate-off-of-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 201
+  },
+  {
+    "id": "how-to-send-order-updates-via-sms-for-shopify",
+    "name": "How to send order updates via SMS for Shopify",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/18389135527323-How-to-send-order-updates-via-SMS-for-Shopify",
+    "tags": [
+      "sms",
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 202
+  },
+  {
+    "id": "how-to-use-klaviyo-s-sms-assistant",
+    "name": "How to use Klaviyo's SMS assistant",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/10039353259163-How-to-use-Klaviyo-s-SMS-assistant",
+    "tags": [
+      "sms"
+    ],
+    "views": 0,
+    "rank": 203
+  },
+  {
+    "id": "how-to-set-up-sms-in-klaviyo",
+    "name": "How to set up SMS in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4404274419355-How-to-set-up-SMS-in-Klaviyo",
+    "tags": [
+      "sms"
+    ],
+    "views": 0,
+    "rank": 204
+  },
+  {
+    "id": "how-to-use-klaviyo-email-and-sms-together",
+    "name": "How to use Klaviyo email and SMS together",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360056849631-How-to-use-Klaviyo-email-and-SMS-together",
+    "tags": [
+      "email",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 205
+  },
+  {
+    "id": "how-to-create-an-sms-subscribe-link",
+    "name": "How to create an SMS subscribe link",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/14104388043931-How-to-create-an-SMS-subscribe-link",
+    "tags": [
+      "sms"
+    ],
+    "views": 0,
+    "rank": 206
+  },
+  {
+    "id": "how-to-remove-sms-consent-from-a-single-profile",
+    "name": "How to remove SMS consent from a single profile",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360051013832-How-to-remove-SMS-consent-from-a-single-profile",
+    "tags": [
+      "sms",
+      "profiles"
+    ],
+    "views": 0,
+    "rank": 207
+  },
+  {
+    "id": "how-to-use-age-gating-with-klaviyo",
+    "name": "How to use age-gating with Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/17252552814875-How-to-use-age-gating-with-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 208
+  },
+  {
+    "id": "getting-started-with-chownow",
+    "name": "Getting started with ChowNow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/24206444868251-Getting-started-with-ChowNow",
+    "tags": [],
+    "views": 0,
+    "rank": 209
+  },
+  {
+    "id": "how-to-edit-or-reschedule-a-campaign",
+    "name": "How to edit or reschedule a campaign",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4411545074203-How-to-edit-or-reschedule-a-campaign",
+    "tags": [
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 210
+  },
+  {
+    "id": "how-to-set-your-customer-agent-s-tone-of-voice",
+    "name": "How to set your Customer Agent's tone of voice",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/42533189094811-How-to-set-your-Customer-Agent-s-tone-of-voice",
+    "tags": [],
+    "views": 0,
+    "rank": 211
+  },
+  {
+    "id": "how-to-connect-gorgias-to-customer-hub",
+    "name": "How to connect Gorgias to Customer Hub",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33660687711771-How-to-connect-Gorgias-to-Customer-Hub",
+    "tags": [],
+    "views": 0,
+    "rank": 212
+  },
+  {
+    "id": "how-to-sync-reviews-to-google-shopping",
+    "name": "How to sync reviews to Google Shopping",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16681460907035-How-to-sync-reviews-to-Google-Shopping",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 213
+  },
+  {
+    "id": "how-to-use-shopify-flow-and-the-klaviyo-connector",
+    "name": "How to use Shopify Flow and the Klaviyo Connector",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360014410811-How-to-use-Shopify-Flow-and-the-Klaviyo-Connector",
+    "tags": [
+      "flows",
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 214
+  },
+  {
+    "id": "how-to-set-up-customer-hub-with-headless-shopify",
+    "name": "How to set up Customer Hub with Headless Shopify",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/41413854379291-How-to-set-up-Customer-Hub-with-Headless-Shopify",
+    "tags": [
+      "integrations",
+      "shopify",
+      "integrate with shopify",
+      "all integrations",
+      "customer hub"
+    ],
+    "views": 0,
+    "rank": 215
+  },
+  {
+    "id": "how-to-use-deep-links-in-push-notifications",
+    "name": "How to use deep links in push notifications",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/14750403974043-How-to-use-deep-links-in-push-notifications",
+    "tags": [],
+    "views": 0,
+    "rank": 216
+  },
+  {
+    "id": "how-to-add-whatsapp-to-a-flow",
+    "name": "How to add WhatsApp to a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/40116763040411-How-to-add-WhatsApp-to-a-flow",
+    "tags": [
+      "flows",
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 217
+  },
+  {
+    "id": "how-to-create-an-in-app-form",
+    "name": "How to create an in-app form",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/34567685177883-How-to-create-an-in-app-form",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 218
+  },
+  {
+    "id": "how-to-create-a-winback-flow",
+    "name": "How to create a winback flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002775192-How-to-create-a-winback-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 219
+  },
+  {
+    "id": "how-to-migrate-from-whatsapp-business-app-to-klaviyo",
+    "name": "How to migrate from WhatsApp Business App to Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/40116568714523-How-to-migrate-from-WhatsApp-Business-App-to-Klaviyo",
+    "tags": [
+      "whatsapp"
+    ],
+    "views": 0,
+    "rank": 220
+  },
+  {
+    "id": "how-to-create-an-upsell-or-cross-sell-flow",
+    "name": "How to create an upsell or cross-sell flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002775212-How-to-create-an-upsell-or-cross-sell-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 221
+  },
+  {
+    "id": "how-to-add-a-countdown-timer-to-an-email",
+    "name": "How to add a countdown timer to an email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115000780232-How-to-add-a-countdown-timer-to-an-email",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 222
+  },
+  {
+    "id": "how-to-use-email-ai-to-draft-an-email-campaign",
+    "name": "How to use Email AI to draft an email campaign",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/28242227715227-How-to-use-Email-AI-to-draft-an-email-campaign",
+    "tags": [
+      "campaigns",
+      "email"
+    ],
+    "views": 0,
+    "rank": 223
+  },
+  {
+    "id": "how-to-export-all-people-in-your-account",
+    "name": "How to export all people in your account",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005246168-How-to-export-all-people-in-your-account",
+    "tags": [],
+    "views": 0,
+    "rank": 224
+  },
+  {
+    "id": "how-to-set-up-android-push-notifications",
+    "name": "How to set up Android push notifications",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/14750928993307-How-to-set-up-Android-push-notifications",
+    "tags": [],
+    "views": 0,
+    "rank": 225
+  },
+  {
+    "id": "how-to-create-a-cross-sell-segment",
+    "name": "How to create a cross sell segment",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005066027-How-to-create-a-cross-sell-segment",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 226
+  },
+  {
+    "id": "how-to-enable-prestashop-price-include-vat",
+    "name": "How to enable PrestaShop price include VAT",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/14477037350299-How-to-enable-PrestaShop-price-include-VAT",
+    "tags": [],
+    "views": 0,
+    "rank": 227
+  },
+  {
+    "id": "getting-started-with-wix",
+    "name": "Getting started with Wix",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/6202669053723-Getting-started-with-Wix",
+    "tags": [],
+    "views": 0,
+    "rank": 228
+  },
+  {
+    "id": "how-to-use-klaviyo-showcase",
+    "name": "How to use Klaviyo Showcase",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4408036400155-How-to-use-Klaviyo-Showcase",
+    "tags": [],
+    "views": 0,
+    "rank": 229
+  },
+  {
+    "id": "how-to-create-a-mobile-terms-of-service-in-klaviyo",
+    "name": "How to create a mobile terms of service in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360049177511-How-to-create-a-mobile-terms-of-service-in-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 230
+  },
+  {
+    "id": "how-to-create-an-sms-error-segment",
+    "name": "How to create an SMS error segment",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/9821790118171-How-to-create-an-SMS-error-segment",
+    "tags": [
+      "segments",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 231
+  },
+  {
+    "id": "how-to-configure-custom-reports-to-track-bot-clicks",
+    "name": "How to configure custom reports to track bot clicks",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/27497646637979-How-to-configure-custom-reports-to-track-bot-clicks",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 232
+  },
+  {
+    "id": "how-to-use-inbox-testing",
+    "name": "How to use inbox testing",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/37463094051611-How-to-use-inbox-testing",
+    "tags": [],
+    "views": 0,
+    "rank": 233
+  },
+  {
+    "id": "how-to-use-sms-in-replenishment-flows",
+    "name": "How to use SMS in replenishment flows",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16318679373595-How-to-use-SMS-in-replenishment-flows",
+    "tags": [
+      "flows",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 234
+  },
+  {
+    "id": "how-to-customize-review-widgets",
+    "name": "How to customize review widgets",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16691401577883-How-to-customize-review-widgets",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 235
+  },
+  {
+    "id": "how-to-use-in-email-review-collection",
+    "name": "How to use in-email review collection",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/28307942477211-How-to-use-in-email-review-collection",
+    "tags": [
+      "email",
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 236
+  },
+  {
+    "id": "getting-started-with-olo",
+    "name": "Getting started with Olo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/15751697785883-Getting-started-with-Olo",
+    "tags": [],
+    "views": 0,
+    "rank": 237
+  },
+  {
+    "id": "getting-started-with-shift4shop",
+    "name": "Getting started with Shift4Shop",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005083107-Getting-started-with-Shift4Shop",
+    "tags": [],
+    "views": 0,
+    "rank": 238
+  },
+  {
+    "id": "how-to-add-klaviyo-onsite-tracking-using-google-tag-manager",
+    "name": "How to add Klaviyo onsite tracking using Google Tag Manager",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360015392131-How-to-add-Klaviyo-onsite-tracking-using-Google-Tag-Manager",
+    "tags": [],
+    "views": 0,
+    "rank": 239
+  },
+  {
+    "id": "how-to-remove-onsite-tracking-for-bigcommerce",
+    "name": "How to remove onsite tracking for BigCommerce",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/19736852757915-How-to-remove-onsite-tracking-for-BigCommerce",
+    "tags": [],
+    "views": 0,
+    "rank": 240
+  },
+  {
+    "id": "how-to-use-the-klaviyo-setup-wizard",
+    "name": "How to use the Klaviyo setup wizard",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115000255731-How-to-use-the-Klaviyo-setup-wizard",
+    "tags": [],
+    "views": 0,
+    "rank": 241
+  },
+  {
+    "id": "how-to-create-a-custom-viewed-page-metric",
+    "name": "How to create a custom viewed page metric",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360059075151-How-to-create-a-custom-viewed-page-metric",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 242
+  },
+  {
+    "id": "how-to-create-static-coupons-for-prestashop",
+    "name": "How to create static coupons for PrestaShop",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/19655157461403-How-to-create-static-coupons-for-PrestaShop",
+    "tags": [
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 243
+  },
+  {
+    "id": "how-to-set-up-lead-capture-with-shop-on-a-sign-up-form",
+    "name": "How to set up lead capture with Shop on a sign-up form",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/17292871409947-How-to-set-up-lead-capture-with-Shop-on-a-sign-up-form",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 244
+  },
+  {
+    "id": "how-to-remove-onsite-tracking-for-shopify",
+    "name": "How to remove onsite tracking for Shopify",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/5379853359771-How-to-remove-onsite-tracking-for-Shopify",
+    "tags": [
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 245
+  },
+  {
+    "id": "how-to-edit-coupons-in-klaviyo",
+    "name": "How to edit coupons in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360048067932-How-to-edit-coupons-in-Klaviyo",
+    "tags": [
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 246
+  },
+  {
+    "id": "how-to-use-unique-coupon-codes-in-sms-and-mms-messages",
+    "name": "How to use unique coupon codes in SMS and MMS messages",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360044863132-How-to-use-unique-coupon-codes-in-SMS-and-MMS-messages",
+    "tags": [
+      "sms",
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 247
+  },
+  {
+    "id": "how-to-set-up-coupons-for-square",
+    "name": "How to set up coupons for Square",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/18229362143899-How-to-set-up-coupons-for-Square",
+    "tags": [
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 248
+  },
+  {
+    "id": "how-to-set-up-static-coupons-for-woocommerce",
+    "name": "How to set up static coupons for WooCommerce",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360031279471-How-to-set-up-static-coupons-for-WooCommerce",
+    "tags": [
+      "integrations",
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 249
+  },
+  {
+    "id": "how-to-install-klaviyo-reviews-for-woocommerce",
+    "name": "How to install Klaviyo Reviews for WooCommerce",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/26922347702939-How-to-install-Klaviyo-Reviews-for-WooCommerce",
+    "tags": [
+      "integrations",
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 250
+  },
+  {
+    "id": "how-to-import-product-reviews-data-from-another-platform",
+    "name": "How to import product reviews data from another platform",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16318811222555-How-to-import-product-reviews-data-from-another-platform",
+    "tags": [
+      "forms",
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 251
+  },
+  {
+    "id": "how-to-install-klaviyo-reviews-on-shopify-2-0-themes",
+    "name": "How to install Klaviyo Reviews on Shopify 2.0 themes",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16318951826331-How-to-install-Klaviyo-Reviews-on-Shopify-2-0-themes",
+    "tags": [
+      "integrations",
+      "shopify",
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 252
+  },
+  {
+    "id": "how-to-build-a-product-performance-report",
+    "name": "How to build a product performance report",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360047083252-How-to-build-a-product-performance-report",
+    "tags": [
+      "forms",
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 253
+  },
+  {
+    "id": "how-to-update-your-industry-and-vertical-in-klaviyo",
+    "name": "How to update your industry and vertical in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360050696531-How-to-update-your-industry-and-vertical-in-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 254
+  },
+  {
+    "id": "how-to-use-the-reports-library",
+    "name": "How to use the reports library",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/1260806521330-How-to-use-the-reports-library",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 255
+  },
+  {
+    "id": "how-to-use-the-email-campaigns-trend-report",
+    "name": "How to use the email campaigns trend report",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005089467-How-to-use-the-email-campaigns-trend-report",
+    "tags": [
+      "campaigns",
+      "email",
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 256
+  },
+  {
+    "id": "how-to-set-up-your-branded-sender-id",
+    "name": "How to set up your branded sender ID",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/14953787622427-How-to-set-up-your-branded-sender-ID",
+    "tags": [],
+    "views": 0,
+    "rank": 257
+  },
+  {
+    "id": "how-to-use-tags-to-organize-flows",
+    "name": "How to use tags to organize flows",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002779191-How-to-use-tags-to-organize-flows",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 258
+  },
+  {
+    "id": "how-to-create-and-manage-header-blocks",
+    "name": "How to create and manage header blocks",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115001735052-How-to-create-and-manage-header-blocks",
+    "tags": [],
+    "views": 0,
+    "rank": 259
+  },
+  {
+    "id": "how-to-use-woocommerce-data-in-flows",
+    "name": "How to use WooCommerce data in flows",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360034500652-How-to-use-WooCommerce-data-in-flows",
+    "tags": [
+      "flows",
+      "integrations"
+    ],
+    "views": 0,
+    "rank": 260
+  },
+  {
+    "id": "getting-started-with-square",
+    "name": "Getting started with Square",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/11117215837211-Getting-started-with-Square",
+    "tags": [],
+    "views": 0,
+    "rank": 261
+  },
+  {
+    "id": "how-to-set-up-scim-user-provisioning",
+    "name": "How to set up SCIM user provisioning",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/10952782535579-How-to-set-up-SCIM-user-provisioning",
+    "tags": [],
+    "views": 0,
+    "rank": 262
+  },
+  {
+    "id": "how-to-remove-suppressed-profiles-from-a-list",
+    "name": "How to remove suppressed profiles from a list",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005077307-How-to-remove-suppressed-profiles-from-a-list",
+    "tags": [
+      "lists",
+      "profiles"
+    ],
+    "views": 0,
+    "rank": 263
+  },
+  {
+    "id": "getting-started-with-global-holdout-groups",
+    "name": "Getting started with global holdout groups",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/18138290642971-Getting-started-with-global-holdout-groups",
+    "tags": [],
+    "views": 0,
+    "rank": 264
+  },
+  {
+    "id": "how-to-use-a-header-bar-block-in-an-email",
+    "name": "How to use a header bar block in an email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32201419926939-How-to-use-a-header-bar-block-in-an-email",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 265
+  },
+  {
+    "id": "how-to-create-a-dynamic-cross-sell-flow-using-the-product-an",
+    "name": "How to create a dynamic cross-sell flow using the product analysis report",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33789205940507-How-to-create-a-dynamic-cross-sell-flow-using-the-product-analysis-report",
+    "tags": [
+      "flows",
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 266
+  },
+  {
+    "id": "how-to-create-a-never-engaged-segment",
+    "name": "How to create a never engaged segment",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005078347-How-to-create-a-never-engaged-segment",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 267
+  },
+  {
+    "id": "how-to-connect-an-order-tracking-provider-to-customer-hub",
+    "name": "How to connect an order tracking provider to Customer Hub",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/38357331656347-How-to-connect-an-order-tracking-provider-to-Customer-Hub",
+    "tags": [],
+    "views": 0,
+    "rank": 268
+  },
+  {
+    "id": "how-to-set-up-coupons-for-customer-hub",
+    "name": "How to set up coupons for Customer Hub",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/39273771656987-How-to-set-up-coupons-for-Customer-Hub",
+    "tags": [
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 269
+  },
+  {
+    "id": "how-to-connect-smile-io-to-customer-hub",
+    "name": "How to connect Smile.io to Customer Hub",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33660672085019-How-to-connect-Smile-io-to-Customer-Hub",
+    "tags": [],
+    "views": 0,
+    "rank": 270
+  },
+  {
+    "id": "how-to-create-a-favorites-reminder-flow",
+    "name": "How to create a favorites reminder flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/36998789661595-How-to-create-a-favorites-reminder-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 271
+  },
+  {
+    "id": "how-to-add-or-delete-users-and-manage-permissions",
+    "name": "How to add or delete users and manage permissions",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360053547071-How-to-add-or-delete-users-and-manage-permissions",
+    "tags": [],
+    "views": 0,
+    "rank": 272
+  },
+  {
+    "id": "how-to-create-customer-persona-segments-based-on-activity",
+    "name": "How to create customer persona segments based on activity",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360000407272-How-to-create-customer-persona-segments-based-on-activity",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 273
+  },
+  {
+    "id": "how-to-add-a-first-name-to-an-email-sms-or-push-message",
+    "name": "How to add a first name to an email, SMS, or push message",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/11613154130843-How-to-add-a-first-name-to-an-email-SMS-or-push-message",
+    "tags": [
+      "email",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 274
+  },
+  {
+    "id": "how-to-create-an-engaged-segment-of-email-subscribers",
+    "name": "How to create an engaged segment of email subscribers",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115000200072-How-to-create-an-engaged-segment-of-email-subscribers",
+    "tags": [
+      "segments",
+      "email"
+    ],
+    "views": 0,
+    "rank": 275
+  },
+  {
+    "id": "how-to-use-sections-in-email-templates",
+    "name": "How to use sections in email templates",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4408802293019-How-to-use-sections-in-email-templates",
+    "tags": [
+      "email",
+      "templates"
+    ],
+    "views": 0,
+    "rank": 276
+  },
+  {
+    "id": "how-to-create-an-sms-welcome-flow",
+    "name": "How to create an SMS welcome flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360036122291-How-to-create-an-SMS-welcome-flow",
+    "tags": [
+      "flows",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 277
+  },
+  {
+    "id": "how-to-edit-images-in-the-sign-up-form-editor",
+    "name": "How to edit images in the sign-up form editor",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4414658305691-How-to-edit-images-in-the-sign-up-form-editor",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 278
+  },
+  {
+    "id": "how-to-add-a-form-teaser",
+    "name": "How to add a form teaser",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4411540984859-How-to-add-a-form-teaser",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 279
+  },
+  {
+    "id": "how-to-add-side-images-in-sign-up-forms",
+    "name": "How to add side images in sign-up forms",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4404257318043-How-to-add-side-images-in-sign-up-forms",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 280
+  },
+  {
+    "id": "how-to-use-custom-fonts-in-sign-up-forms",
+    "name": "How to use custom fonts in sign-up forms",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360047955672-How-to-use-custom-fonts-in-sign-up-forms",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 281
+  },
+  {
+    "id": "how-to-upload-existing-magento-2-subscribers-to-a-klaviyo-li",
+    "name": "How to upload existing Magento 2 subscribers to a Klaviyo list",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082407-How-to-upload-existing-Magento-2-subscribers-to-a-Klaviyo-list",
+    "tags": [
+      "lists"
+    ],
+    "views": 0,
+    "rank": 282
+  },
+  {
+    "id": "how-to-upload-existing-magento-1-subscribers-to-a-klaviyo-li",
+    "name": "How to upload existing Magento 1 subscribers to a Klaviyo list",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/40426020816027-How-to-upload-existing-Magento-1-subscribers-to-a-Klaviyo-list",
+    "tags": [
+      "lists"
+    ],
+    "views": 0,
+    "rank": 283
+  },
+  {
+    "id": "how-to-migrate-to-our-automatic-added-to-cart-event-for-shop",
+    "name": "How to migrate to our automatic Added to Cart event for Shopify",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/28709780787355-How-to-migrate-to-our-automatic-Added-to-Cart-event-for-Shopify",
+    "tags": [
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 284
+  },
+  {
+    "id": "how-to-remove-out-of-stock-items-in-flows-for-magento-2",
+    "name": "How to remove out-of-stock items in flows for Magento 2",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005254668-How-to-remove-out-of-stock-items-in-flows-for-Magento-2",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 285
+  },
+  {
+    "id": "how-to-create-unique-coupons-for-prestashop",
+    "name": "How to create unique coupons for PrestaShop",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/25151598311195-How-to-create-unique-coupons-for-PrestaShop",
+    "tags": [
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 286
+  },
+  {
+    "id": "how-to-create-unique-coupons-for-woocommerce",
+    "name": "How to create unique coupons for Woocommerce",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/22168739689627-How-to-create-unique-coupons-for-Woocommerce",
+    "tags": [
+      "integrations",
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 287
+  },
+  {
+    "id": "how-to-set-up-coupons-for-magento-2",
+    "name": "How to set up coupons for Magento 2",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360041971851-How-to-set-up-coupons-for-Magento-2",
+    "tags": [
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 288
+  },
+  {
+    "id": "getting-started-with-tiktok-audiences",
+    "name": "Getting started with TikTok Audiences",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/22541043261851-Getting-started-with-TikTok-Audiences",
+    "tags": [],
+    "views": 0,
+    "rank": 289
+  },
+  {
+    "id": "getting-started-with-klaviyo-apis",
+    "name": "Getting started with Klaviyo APIs",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360045726811-Getting-started-with-Klaviyo-APIs",
+    "tags": [
+      "api"
+    ],
+    "views": 0,
+    "rank": 290
+  },
+  {
+    "id": "how-to-create-a-browse-abandonment-flow",
+    "name": "How to create a browse abandonment flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002775252-How-to-create-a-browse-abandonment-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 291
+  },
+  {
+    "id": "getting-started-with-metrics",
+    "name": "Getting started with metrics",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005076787-Getting-started-with-metrics",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 292
+  },
+  {
+    "id": "how-to-add-a-trigger-split-to-a-flow",
+    "name": "How to add a trigger split to a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115003885632-How-to-add-a-trigger-split-to-a-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 293
+  },
+  {
+    "id": "how-to-configure-custom-conversion-metrics",
+    "name": "How to configure custom conversion metrics",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/22311085738395-How-to-configure-custom-conversion-metrics",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 294
+  },
+  {
+    "id": "how-to-use-a-text-block-in-an-email",
+    "name": "How to use a text block in an email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32200923751195-How-to-use-a-text-block-in-an-email",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 295
+  },
+  {
+    "id": "how-to-add-and-edit-text-blocks-in-emails",
+    "name": "How to add and edit text blocks in emails",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/27066187499291-How-to-add-and-edit-text-blocks-in-emails",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 296
+  },
+  {
+    "id": "how-to-edit-the-location-of-your-tracking-pixel",
+    "name": "How to edit the location of your tracking pixel",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360049695831-How-to-edit-the-location-of-your-tracking-pixel",
+    "tags": [],
+    "views": 0,
+    "rank": 297
+  },
+  {
+    "id": "how-to-add-a-klaviyo-embed-form-to-your-bigcommerce-site",
+    "name": "How to add a Klaviyo embed form to your BigCommerce site",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360022594552-How-to-add-a-Klaviyo-embed-form-to-your-BigCommerce-site",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 298
+  },
+  {
+    "id": "how-to-migrate-from-another-reviews-provider-to-klaviyo",
+    "name": "How to migrate from another reviews provider to Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/27631521070235-How-to-migrate-from-another-reviews-provider-to-Klaviyo",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 299
+  },
+  {
+    "id": "how-to-sync-shopify-segments-to-klaviyo",
+    "name": "How to sync Shopify segments to Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/38417082235675-How-to-sync-Shopify-segments-to-Klaviyo",
+    "tags": [
+      "segments",
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 300
+  },
+  {
+    "id": "how-to-use-email-ai-to-revise-text",
+    "name": "How to use Email AI to revise text",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/34411474977947-How-to-use-Email-AI-to-revise-text",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 301
+  },
+  {
+    "id": "how-to-create-a-segment-in-the-campaign-wizard",
+    "name": "How to create a segment in the campaign wizard",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/35873493204251-How-to-create-a-segment-in-the-campaign-wizard",
+    "tags": [
+      "segments",
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 302
+  },
+  {
+    "id": "how-to-add-a-list-update-action-to-a-flow",
+    "name": "How to add a list update action to a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/30101956634523-How-to-add-a-list-update-action-to-a-flow",
+    "tags": [
+      "flows",
+      "lists"
+    ],
+    "views": 0,
+    "rank": 303
+  },
+  {
+    "id": "how-to-configure-your-opt-out-keyword-settings",
+    "name": "How to configure your opt-out keyword settings",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/29109965092251-How-to-configure-your-opt-out-keyword-settings",
+    "tags": [],
+    "views": 0,
+    "rank": 304
+  },
+  {
+    "id": "how-to-create-an-sms-form-that-targets-email-subscribers",
+    "name": "How to create an SMS form that targets email subscribers",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/26878282097563-How-to-create-an-SMS-form-that-targets-email-subscribers",
+    "tags": [
+      "email",
+      "sms",
+      "forms"
+    ],
+    "views": 0,
+    "rank": 305
+  },
+  {
+    "id": "how-to-use-account-level-mapped-metrics",
+    "name": "How to use account-level mapped metrics",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/25829057055899-How-to-use-account-level-mapped-metrics",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 306
+  },
+  {
+    "id": "how-to-use-email-ai-to-create-email-content",
+    "name": "How to use Email AI to create email content",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/21977834205723-How-to-use-Email-AI-to-create-email-content",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 307
+  },
+  {
+    "id": "how-to-use-filters-to-customize-variables",
+    "name": "How to use filters to customize variables",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360058907911-How-to-use-filters-to-customize-variables",
+    "tags": [],
+    "views": 0,
+    "rank": 308
+  },
+  {
+    "id": "how-to-use-flows-to-send-transactional-emails",
+    "name": "How to use flows to send transactional emails",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360003165732-How-to-use-flows-to-send-transactional-emails",
+    "tags": [
+      "flows",
+      "email"
+    ],
+    "views": 0,
+    "rank": 309
+  },
+  {
+    "id": "how-to-use-dynamic-blocks-in-forms",
+    "name": "How to use dynamic blocks in forms",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/11286232753051-How-to-use-dynamic-blocks-in-forms",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 310
+  },
+  {
+    "id": "how-to-use-emojis-in-subject-lines-and-email-templates",
+    "name": "How to use emojis in subject lines and email templates",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005257048-How-to-use-emojis-in-subject-lines-and-email-templates",
+    "tags": [
+      "email",
+      "templates"
+    ],
+    "views": 0,
+    "rank": 311
+  },
+  {
+    "id": "how-to-sync-bigcommerce-email-subscribers-to-a-klaviyo-list",
+    "name": "How to sync BigCommerce email subscribers to a Klaviyo list",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/19736765160731-How-to-sync-BigCommerce-email-subscribers-to-a-Klaviyo-list",
+    "tags": [
+      "email",
+      "lists"
+    ],
+    "views": 0,
+    "rank": 312
+  },
+  {
+    "id": "how-to-set-up-your-sms-disclosure-language",
+    "name": "How to set up your SMS disclosure language",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/11644128409371-How-to-set-up-your-SMS-disclosure-language",
+    "tags": [
+      "sms"
+    ],
+    "views": 0,
+    "rank": 313
+  },
+  {
+    "id": "how-to-sync-meta-lead-ad-subscribers-to-klaviyo",
+    "name": "How to sync Meta lead ad subscribers to Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/14318416590235-How-to-sync-Meta-lead-ad-subscribers-to-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 314
+  },
+  {
+    "id": "how-to-set-up-ios-push-notifications",
+    "name": "How to set up iOS push notifications",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360023213971-How-to-set-up-iOS-push-notifications",
+    "tags": [],
+    "views": 0,
+    "rank": 315
+  },
+  {
+    "id": "how-to-update-your-brand-styles-in-klaviyo",
+    "name": "How to update your brand styles in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4403537778331-How-to-update-your-brand-styles-in-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 316
+  },
+  {
+    "id": "how-to-migrate-from-another-email-service-provider-to-klaviy",
+    "name": "How to migrate from another email service provider to Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082767-How-to-migrate-from-another-email-service-provider-to-Klaviyo",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 317
+  },
+  {
+    "id": "how-to-migrate-from-listrak",
+    "name": "How to migrate from Listrak",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360034550591-How-to-migrate-from-Listrak",
+    "tags": [
+      "lists"
+    ],
+    "views": 0,
+    "rank": 318
+  },
+  {
+    "id": "how-to-migrate-from-hubspot",
+    "name": "How to migrate from HubSpot",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360039708512-How-to-migrate-from-HubSpot",
+    "tags": [],
+    "views": 0,
+    "rank": 319
+  },
+  {
+    "id": "how-to-integrate-with-opencart",
+    "name": "How to integrate with OpenCart",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005255408-How-to-integrate-with-OpenCart",
+    "tags": [],
+    "views": 0,
+    "rank": 320
+  },
+  {
+    "id": "how-to-migrate-your-branded-sending-domain-from-a-previous-e",
+    "name": "How to migrate your branded sending domain from a previous email service provider (ESP) to Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/9042531198747-How-to-migrate-your-branded-sending-domain-from-a-previous-email-service-provider-ESP-to-Klaviyo",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 321
+  },
+  {
+    "id": "how-to-install-klaviyo-reviews-on-shopify-vintage-themes-and",
+    "name": "How to install Klaviyo Reviews on Shopify (vintage themes and headless)",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16318891028635-How-to-install-Klaviyo-Reviews-on-Shopify-vintage-themes-and-headless",
+    "tags": [
+      "integrations",
+      "shopify",
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 322
+  },
+  {
+    "id": "how-to-integrate-with-campaign-monitor",
+    "name": "How to integrate with Campaign Monitor",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005254968-How-to-integrate-with-Campaign-Monitor",
+    "tags": [
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 323
+  },
+  {
+    "id": "how-to-enable-webhooks-for-magento-2",
+    "name": "How to enable webhooks for Magento 2",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360055336451-How-to-enable-webhooks-for-Magento-2",
+    "tags": [
+      "webhooks"
+    ],
+    "views": 0,
+    "rank": 324
+  },
+  {
+    "id": "how-to-create-google-service-account-to-enable-push-notifica",
+    "name": "How to create Google service account to enable push notifications",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/19893982562203-How-to-create-Google-service-account-to-enable-push-notifications",
+    "tags": [],
+    "views": 0,
+    "rank": 325
+  },
+  {
+    "id": "how-to-create-espresso-shot-segments",
+    "name": "How to create espresso shot segments",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/20776984621083-How-to-create-espresso-shot-segments",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 326
+  },
+  {
+    "id": "how-to-create-ada-friendly-sign-up-forms",
+    "name": "How to create ADA-friendly sign-up forms",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/14980194112411-How-to-create-ADA-friendly-sign-up-forms",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 327
+  },
+  {
+    "id": "how-to-create-a-tap-to-text-sticker-on-instagram",
+    "name": "How to create a tap-to-text sticker on Instagram",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/6294531159579-How-to-create-a-tap-to-text-sticker-on-Instagram",
+    "tags": [],
+    "views": 0,
+    "rank": 328
+  },
+  {
+    "id": "how-to-create-an-abandoned-cart-flow-for-shopware",
+    "name": "How to create an abandoned cart flow for Shopware",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/13323494909083-How-to-create-an-abandoned-cart-flow-for-Shopware",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 329
+  },
+  {
+    "id": "how-to-create-or-clone-a-private-api-key",
+    "name": "How to create or clone a private API key",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/7423954176283-How-to-create-or-clone-a-private-API-key",
+    "tags": [
+      "api"
+    ],
+    "views": 0,
+    "rank": 330
+  },
+  {
+    "id": "how-to-create-a-value-based-lookalike-audience-in-meta-ads",
+    "name": "How to create a value-based lookalike audience in Meta Ads",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360015054631-How-to-create-a-value-based-lookalike-audience-in-Meta-Ads",
+    "tags": [],
+    "views": 0,
+    "rank": 331
+  },
+  {
+    "id": "how-to-create-an-engaged-segment-of-mobile-push-subscribers",
+    "name": "How to create an engaged segment of mobile push subscribers",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/15345735597211-How-to-create-an-engaged-segment-of-mobile-push-subscribers",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 332
+  },
+  {
+    "id": "how-to-create-a-text-only-email",
+    "name": "How to create a text-only email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/12415384810651-How-to-create-a-text-only-email",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 333
+  },
+  {
+    "id": "how-to-create-an-added-to-cart-event-for-bigcommerce",
+    "name": "How to create an \"Added to Cart\" event for BigCommerce",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360024310292-How-to-create-an-Added-to-Cart-event-for-BigCommerce",
+    "tags": [],
+    "views": 0,
+    "rank": 334
+  },
+  {
+    "id": "how-to-create-a-base-template",
+    "name": "How to create a base template",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005083887-How-to-create-a-base-template",
+    "tags": [
+      "templates"
+    ],
+    "views": 0,
+    "rank": 335
+  },
+  {
+    "id": "how-to-configure-out-of-stock-items-for-automated-flows-on-s",
+    "name": "How to configure out-of-stock items for automated flows on Shopify",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005253188-How-to-configure-out-of-stock-items-for-automated-flows-on-Shopify",
+    "tags": [
+      "flows",
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 336
+  },
+  {
+    "id": "how-to-configure-onetrust-with-klaviyo-s-cookies",
+    "name": "How to configure OneTrust with Klaviyo's cookies",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4764571493275-How-to-configure-OneTrust-with-Klaviyo-s-cookies",
+    "tags": [],
+    "views": 0,
+    "rank": 337
+  },
+  {
+    "id": "how-to-add-sms-to-a-thank-you-flow",
+    "name": "How to add SMS to a thank you flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/15800790306715-How-to-add-SMS-to-a-thank-you-flow",
+    "tags": [
+      "flows",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 338
+  },
+  {
+    "id": "how-to-configure-back-in-stock-alert-emails",
+    "name": "How to configure back in stock alert emails",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360051612751-How-to-configure-back-in-stock-alert-emails",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 339
+  },
+  {
+    "id": "how-to-add-sms-to-your-abandoned-cart-flow",
+    "name": "How to add SMS to your abandoned cart flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/9352115400219-How-to-add-SMS-to-your-abandoned-cart-flow",
+    "tags": [
+      "flows",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 340
+  },
+  {
+    "id": "how-to-add-klaviyo-reviews-widgets-to-your-mobile-app-using-",
+    "name": "How to add Klaviyo Reviews widgets to your mobile app using Tapcart",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/22500017241883-How-to-add-Klaviyo-Reviews-widgets-to-your-mobile-app-using-Tapcart",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 341
+  },
+  {
+    "id": "how-to-add-update-or-delete-sms-subscribe-keywords",
+    "name": "How to add, update, or delete SMS subscribe keywords",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360050384091-How-to-add-update-or-delete-SMS-subscribe-keywords",
+    "tags": [
+      "sms"
+    ],
+    "views": 0,
+    "rank": 342
+  },
+  {
+    "id": "how-to-add-trusted-devices",
+    "name": "How to add trusted devices",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360027783611-How-to-add-trusted-devices",
+    "tags": [],
+    "views": 0,
+    "rank": 343
+  },
+  {
+    "id": "how-to-add-an-internal-alert-action-to-a-flow",
+    "name": "How to add an internal alert action to a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360050242251-How-to-add-an-internal-alert-action-to-a-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 344
+  },
+  {
+    "id": "how-to-add-a-link-that-applies-an-item-to-a-bigcommerce-cart",
+    "name": "How to add a link that applies an item to a BigCommerce cart",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082747-How-to-add-a-link-that-applies-an-item-to-a-BigCommerce-cart",
+    "tags": [],
+    "views": 0,
+    "rank": 345
+  },
+  {
+    "id": "getting-started-with-zenoti",
+    "name": "Getting started with Zenoti",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/15752461211547-Getting-started-with-Zenoti",
+    "tags": [],
+    "views": 0,
+    "rank": 346
+  },
+  {
+    "id": "how-to-add-a-klaviyo-embed-form-to-your-woocommerce-site",
+    "name": "How to add a Klaviyo embed form to your WooCommerce site",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360030058772-How-to-add-a-Klaviyo-embed-form-to-your-WooCommerce-site",
+    "tags": [
+      "forms",
+      "integrations"
+    ],
+    "views": 0,
+    "rank": 347
+  },
+  {
+    "id": "how-to-add-a-custom-web-feed-in-an-email",
+    "name": "How to add a custom web feed in an email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005258768-How-to-add-a-custom-web-feed-in-an-email",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 348
+  },
+  {
+    "id": "how-to-add-a-klaviyo-embed-form-to-your-square-online-site",
+    "name": "How to add a Klaviyo embed form to your Square Online site",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/18229698831003-How-to-add-a-Klaviyo-embed-form-to-your-Square-Online-site",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 349
+  },
+  {
+    "id": "getting-started-with-boulevard",
+    "name": "Getting started with Boulevard",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16131320434459-Getting-started-with-Boulevard",
+    "tags": [],
+    "views": 0,
+    "rank": 350
+  },
+  {
+    "id": "getting-started-with-par-punchh",
+    "name": "Getting started with PAR Punchh",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/19895874407579-Getting-started-with-PAR-Punchh",
+    "tags": [],
+    "views": 0,
+    "rank": 351
+  },
+  {
+    "id": "how-to-add-columns-to-an-email",
+    "name": "How to add columns to an email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115000807711-How-to-add-columns-to-an-email",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 352
+  },
+  {
+    "id": "getting-started-with-the-subscriber-growth-report",
+    "name": "Getting started with the subscriber growth report",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/23933678005403-Getting-started-with-the-subscriber-growth-report",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 353
+  },
+  {
+    "id": "how-to-create-a-multi-step-form",
+    "name": "How to create a multi-step form",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4404213604251-How-to-create-a-multi-step-form",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 354
+  },
+  {
+    "id": "how-to-delete-edit-view-or-archive-a-campaign",
+    "name": "How to delete, edit, view, or archive a campaign",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115006199048-How-to-delete-edit-view-or-archive-a-campaign",
+    "tags": [
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 355
+  },
+  {
+    "id": "how-to-use-the-ecommerce-onboarding-checklists",
+    "name": "How to use the ecommerce onboarding checklists",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360047568211-How-to-use-the-ecommerce-onboarding-checklists",
+    "tags": [
+      "lists"
+    ],
+    "views": 0,
+    "rank": 356
+  },
+  {
+    "id": "getting-started-with-intercom",
+    "name": "Getting started with Intercom",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/24016528108315-Getting-started-with-Intercom",
+    "tags": [],
+    "views": 0,
+    "rank": 357
+  },
+  {
+    "id": "how-to-send-test-data-to-zapier",
+    "name": "How to send test data to Zapier",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4407493023131-How-to-send-test-data-to-Zapier",
+    "tags": [
+      "api"
+    ],
+    "views": 0,
+    "rank": 358
+  },
+  {
+    "id": "how-to-add-an-unsubscribe-link-to-klaviyo-emails",
+    "name": "How to add an unsubscribe link to Klaviyo emails",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115006054267-How-to-add-an-unsubscribe-link-to-Klaviyo-emails",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 359
+  },
+  {
+    "id": "how-to-edit-disable-or-remove-a-klaviyo-built-integration",
+    "name": "How to edit, disable, or remove a Klaviyo-built integration",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005081127-How-to-edit-disable-or-remove-a-Klaviyo-built-integration",
+    "tags": [
+      "integrations"
+    ],
+    "views": 0,
+    "rank": 360
+  },
+  {
+    "id": "how-to-use-a-full-page-sign-up-form-as-a-landing-page",
+    "name": "How to use a full page sign-up form as a landing page",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/7417723679387-How-to-use-a-full-page-sign-up-form-as-a-landing-page",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 361
+  },
+  {
+    "id": "how-to-enable-and-use-email-annotations-for-gmail",
+    "name": "How to enable and use email annotations for Gmail",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/23145809959707-How-to-enable-and-use-email-annotations-for-Gmail",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 362
+  },
+  {
+    "id": "how-to-integrate-a-headless-magento-2-setup",
+    "name": "How to integrate a headless Magento 2 setup",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/5486899706267-How-to-integrate-a-headless-Magento-2-setup",
+    "tags": [],
+    "views": 0,
+    "rank": 363
+  },
+  {
+    "id": "how-to-integrate-with-chargebee",
+    "name": "How to integrate with Chargebee",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082247-How-to-integrate-with-Chargebee",
+    "tags": [],
+    "views": 0,
+    "rank": 364
+  },
+  {
+    "id": "getting-started-with-the-business-review-dashboard",
+    "name": "Getting started with the business review dashboard",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16427152766619-Getting-started-with-the-business-review-dashboard",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 365
+  },
+  {
+    "id": "how-to-enable-back-in-stock-for-salesforce-commerce-cloud",
+    "name": "How to enable Back in Stock for Salesforce Commerce Cloud",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/22495505773083-How-to-enable-Back-in-Stock-for-Salesforce-Commerce-Cloud",
+    "tags": [],
+    "views": 0,
+    "rank": 366
+  },
+  {
+    "id": "how-to-integrate-with-kickoff-labs",
+    "name": "How to integrate with Kickoff Labs",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115000691992-How-to-integrate-with-Kickoff-Labs",
+    "tags": [],
+    "views": 0,
+    "rank": 367
+  },
+  {
+    "id": "how-to-update-klaviyo-after-switching-ecommerce-platforms",
+    "name": "How to update Klaviyo after switching ecommerce platforms",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360003124151-How-to-update-Klaviyo-after-switching-ecommerce-platforms",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 368
+  },
+  {
+    "id": "getting-started-with-pinterest-audiences",
+    "name": "Getting started with Pinterest Audiences",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/25594493075227-Getting-started-with-Pinterest-Audiences",
+    "tags": [],
+    "views": 0,
+    "rank": 369
+  },
+  {
+    "id": "how-to-use-the-campaign-calendar",
+    "name": "How to use the campaign calendar",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/14508495654427-How-to-use-the-campaign-calendar",
+    "tags": [
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 370
+  },
+  {
+    "id": "how-to-create-an-engagement-report-for-a-list-or-segment",
+    "name": "How to create an engagement report for a list or segment",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/15032210146715-How-to-create-an-engagement-report-for-a-list-or-segment",
+    "tags": [
+      "segments",
+      "lists",
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 371
+  },
+  {
+    "id": "how-to-create-a-third-party-product-review-flow",
+    "name": "How to create a third-party product review flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002779391-How-to-create-a-third-party-product-review-flow",
+    "tags": [
+      "flows",
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 372
+  },
+  {
+    "id": "how-to-use-a-campaign-to-request-reviews",
+    "name": "How to use a campaign to request reviews",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/28114865573915-How-to-use-a-campaign-to-request-reviews",
+    "tags": [
+      "campaigns",
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 373
+  },
+  {
+    "id": "how-to-integrate-with-wufoo",
+    "name": "How to integrate with Wufoo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005254868-How-to-integrate-with-Wufoo",
+    "tags": [],
+    "views": 0,
+    "rank": 374
+  },
+  {
+    "id": "getting-started-with-amazon-buy-with-prime",
+    "name": "Getting started with Amazon Buy with Prime",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/14708088221467-Getting-started-with-Amazon-Buy-with-Prime",
+    "tags": [],
+    "views": 0,
+    "rank": 375
+  },
+  {
+    "id": "how-to-add-a-countdown-timer-to-a-sign-up-form",
+    "name": "How to add a countdown timer to a sign-up form",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/11206946148891-How-to-add-a-countdown-timer-to-a-sign-up-form",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 376
+  },
+  {
+    "id": "how-to-enable-back-in-stock-for-prestashop",
+    "name": "How to enable back in stock for PrestaShop",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33059375555099-How-to-enable-back-in-stock-for-PrestaShop",
+    "tags": [],
+    "views": 0,
+    "rank": 377
+  },
+  {
+    "id": "how-to-sync-reviews-between-shop-and-klaviyo",
+    "name": "How to sync reviews between Shop and Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32612642305691-How-to-sync-reviews-between-Shop-and-Klaviyo",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 378
+  },
+  {
+    "id": "how-to-import-a-custom-html-template",
+    "name": "How to import a custom HTML template",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005254068-How-to-import-a-custom-HTML-template",
+    "tags": [
+      "templates"
+    ],
+    "views": 0,
+    "rank": 379
+  },
+  {
+    "id": "how-to-set-up-multi-store-syndication-for-reviews",
+    "name": "How to set up multi-store syndication for reviews",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/33457413742235-How-to-set-up-multi-store-syndication-for-reviews",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 380
+  },
+  {
+    "id": "how-to-use-a-split-block-in-an-email",
+    "name": "How to use a split block in an email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32254258938139-How-to-use-a-split-block-in-an-email",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 381
+  },
+  {
+    "id": "getting-started-with-data-capture-in-klaviyo",
+    "name": "Getting started with data capture in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/20920631501979-Getting-started-with-data-capture-in-Klaviyo",
+    "tags": [],
+    "views": 0,
+    "rank": 382
+  },
+  {
+    "id": "getting-started-with-google-ads",
+    "name": "Getting started with Google Ads",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/6353315757211-Getting-started-with-Google-Ads",
+    "tags": [],
+    "views": 0,
+    "rank": 383
+  },
+  {
+    "id": "how-to-create-a-low-inventory-flow",
+    "name": "How to create a low inventory flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/21374913673243-How-to-create-a-low-inventory-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 384
+  },
+  {
+    "id": "how-to-create-and-send-an-sms-campaign",
+    "name": "How to create and send an SMS campaign",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360040039971-How-to-create-and-send-an-SMS-campaign",
+    "tags": [
+      "campaigns",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 385
+  },
+  {
+    "id": "getting-started-with-meta-ads",
+    "name": "Getting started with Meta Ads",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082127-Getting-started-with-Meta-Ads",
+    "tags": [],
+    "views": 0,
+    "rank": 386
+  },
+  {
+    "id": "how-to-integrate-with-segment",
+    "name": "How to integrate with Segment",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005252988-How-to-integrate-with-Segment",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 387
+  },
+  {
+    "id": "how-to-integrate-with-volusion",
+    "name": "How to integrate with Volusion",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005083427-How-to-integrate-with-Volusion",
+    "tags": [],
+    "views": 0,
+    "rank": 388
+  },
+  {
+    "id": "how-to-integrate-with-spree",
+    "name": "How to integrate with Spree",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005255448-How-to-integrate-with-Spree",
+    "tags": [],
+    "views": 0,
+    "rank": 389
+  },
+  {
+    "id": "how-to-integrate-with-recurly",
+    "name": "How to integrate with Recurly",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082207-How-to-integrate-with-Recurly",
+    "tags": [],
+    "views": 0,
+    "rank": 390
+  },
+  {
+    "id": "how-to-integrate-with-olark",
+    "name": "How to integrate with Olark",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005081447-How-to-integrate-with-Olark",
+    "tags": [],
+    "views": 0,
+    "rank": 391
+  },
+  {
+    "id": "how-to-integrate-with-neoncrm",
+    "name": "How to integrate with NeonCRM",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082887-How-to-integrate-with-NeonCRM",
+    "tags": [],
+    "views": 0,
+    "rank": 392
+  },
+  {
+    "id": "how-to-integrate-with-help-scout",
+    "name": "How to integrate with Help Scout",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005081607-How-to-integrate-with-Help-Scout",
+    "tags": [],
+    "views": 0,
+    "rank": 393
+  },
+  {
+    "id": "how-to-integrate-with-funraise",
+    "name": "How to integrate with Funraise",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005255108-How-to-integrate-with-Funraise",
+    "tags": [],
+    "views": 0,
+    "rank": 394
+  },
+  {
+    "id": "how-to-integrate-with-eventbrite",
+    "name": "How to integrate with Eventbrite",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005252888-How-to-integrate-with-Eventbrite",
+    "tags": [],
+    "views": 0,
+    "rank": 395
+  },
+  {
+    "id": "how-to-integrate-with-donorperfect",
+    "name": "How to integrate with DonorPerfect",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005255168-How-to-integrate-with-DonorPerfect",
+    "tags": [],
+    "views": 0,
+    "rank": 396
+  },
+  {
+    "id": "how-to-integrate-with-donate-ly",
+    "name": "How to integrate with Donate.ly",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005255188-How-to-integrate-with-Donate-ly",
+    "tags": [],
+    "views": 0,
+    "rank": 397
+  },
+  {
+    "id": "how-to-integrate-with-actblue",
+    "name": "How to Integrate with ActBlue",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005255208-How-to-Integrate-with-ActBlue",
+    "tags": [],
+    "views": 0,
+    "rank": 398
+  },
+  {
+    "id": "how-to-edit-a-flow",
+    "name": "How to edit a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002779151-How-to-edit-a-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 399
+  },
+  {
+    "id": "getting-started-with-stripe",
+    "name": "Getting started with Stripe",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005082267-Getting-started-with-Stripe",
+    "tags": [],
+    "views": 0,
+    "rank": 400
+  },
+  {
+    "id": "getting-started-with-opentable",
+    "name": "Getting started with OpenTable",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/23112971772699-Getting-started-with-OpenTable",
+    "tags": [],
+    "views": 0,
+    "rank": 401
+  },
+  {
+    "id": "how-to-add-an-sms-action-to-a-flow",
+    "name": "How to add an SMS action to a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360035014492-How-to-add-an-SMS-action-to-a-flow",
+    "tags": [
+      "flows",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 402
+  },
+  {
+    "id": "how-to-add-an-update-profile-property-action-to-a-flow",
+    "name": "How to add an update profile property action to a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360001768432-How-to-add-an-update-profile-property-action-to-a-flow",
+    "tags": [
+      "flows",
+      "profiles"
+    ],
+    "views": 0,
+    "rank": 403
+  },
+  {
+    "id": "how-to-add-branding-from-your-website-to-your-emails",
+    "name": "How to add branding from your website to your emails",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/39106892802331-How-to-add-branding-from-your-website-to-your-emails",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 404
+  },
+  {
+    "id": "how-to-create-an-abandoned-added-to-cart-flow-for-shopify",
+    "name": "How to create an abandoned \"Added to Cart\" flow for Shopify",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/35510464880027-How-to-create-an-abandoned-Added-to-Cart-flow-for-Shopify",
+    "tags": [
+      "flows",
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 405
+  },
+  {
+    "id": "how-to-build-a-back-in-stock-flow",
+    "name": "How to build a back in stock flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115003872251-How-to-build-a-back-in-stock-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 406
+  },
+  {
+    "id": "getting-started-with-salesforce-commerce-cloud",
+    "name": "Getting started with Salesforce Commerce Cloud",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360033744951-Getting-started-with-Salesforce-Commerce-Cloud",
+    "tags": [],
+    "views": 0,
+    "rank": 407
+  },
+  {
+    "id": "how-to-use-sms-in-your-back-in-stock-flows",
+    "name": "How to use SMS in your back in stock flows",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/7954040204827-How-to-use-SMS-in-your-back-in-stock-flows",
+    "tags": [
+      "flows",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 408
+  },
+  {
+    "id": "how-to-export-coupon-information",
+    "name": "How to export coupon information",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360048071212-How-to-export-coupon-information",
+    "tags": [
+      "forms",
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 409
+  },
+  {
+    "id": "how-to-add-a-tag-to-a-list-or-segment",
+    "name": "How to add a tag to a list or segment",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360054362511-How-to-add-a-tag-to-a-list-or-segment",
+    "tags": [
+      "segments",
+      "lists"
+    ],
+    "views": 0,
+    "rank": 410
+  },
+  {
+    "id": "how-to-customize-a-list-s-unsubscribe-page",
+    "name": "How to customize a list's unsubscribe page",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005079627-How-to-customize-a-list-s-unsubscribe-page",
+    "tags": [
+      "lists"
+    ],
+    "views": 0,
+    "rank": 411
+  },
+  {
+    "id": "how-to-send-a-campaign-to-people-skipped-by-a-list-triggered",
+    "name": "How to send a campaign to people skipped by a list-triggered flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002775272-How-to-send-a-campaign-to-people-skipped-by-a-list-triggered-flow",
+    "tags": [
+      "flows",
+      "campaigns",
+      "lists"
+    ],
+    "views": 0,
+    "rank": 412
+  },
+  {
+    "id": "how-to-export-flow-analytics",
+    "name": "How to export flow analytics",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002779371-How-to-export-flow-analytics",
+    "tags": [
+      "flows",
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 413
+  },
+  {
+    "id": "how-to-create-edit-delete-and-manage-templates",
+    "name": "How to create, edit, delete, and manage templates",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115000102752-How-to-create-edit-delete-and-manage-templates",
+    "tags": [
+      "templates"
+    ],
+    "views": 0,
+    "rank": 414
+  },
+  {
+    "id": "how-to-add-sms-to-your-browse-abandonment-flow",
+    "name": "How to add SMS to your browse abandonment flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/15806802249883-How-to-add-SMS-to-your-browse-abandonment-flow",
+    "tags": [
+      "flows",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 415
+  },
+  {
+    "id": "how-to-send-a-personal-email-in-klaviyo",
+    "name": "How to send a personal email in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005246328-How-to-send-a-personal-email-in-Klaviyo",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 416
+  },
+  {
+    "id": "how-to-set-up-call-forwarding-for-your-toll-free-number",
+    "name": "How to set up call forwarding for your toll-free number",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/31963445305371-How-to-set-up-call-forwarding-for-your-toll-free-number",
+    "tags": [],
+    "views": 0,
+    "rank": 417
+  },
+  {
+    "id": "how-to-create-a-donor-re-engagement-flow",
+    "name": "How to create a donor re-engagement flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002775292-How-to-create-a-donor-re-engagement-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 418
+  },
+  {
+    "id": "how-to-create-a-winback-flow-for-amazon-buy-with-prime",
+    "name": "How to create a winback flow for Amazon Buy with Prime",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/15156331062171-How-to-create-a-winback-flow-for-Amazon-Buy-with-Prime",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 419
+  },
+  {
+    "id": "getting-started-with-the-sms-dashboard",
+    "name": "Getting started with the SMS dashboard",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/25933782934555-Getting-started-with-the-SMS-dashboard",
+    "tags": [
+      "sms"
+    ],
+    "views": 0,
+    "rank": 420
+  },
+  {
+    "id": "getting-started-with-the-segment-growth-report",
+    "name": "Getting started with the segment growth report",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16328700952987-Getting-started-with-the-segment-growth-report",
+    "tags": [
+      "segments",
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 421
+  },
+  {
+    "id": "how-to-create-a-segment-of-sms-subscribers",
+    "name": "How to create a segment of SMS subscribers",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360035800811-How-to-create-a-segment-of-SMS-subscribers",
+    "tags": [
+      "segments",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 422
+  },
+  {
+    "id": "how-to-create-and-manage-universal-and-saved-content",
+    "name": "How to create and manage universal and saved content",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005413888-How-to-create-and-manage-universal-and-saved-content",
+    "tags": [],
+    "views": 0,
+    "rank": 423
+  },
+  {
+    "id": "how-to-add-a-link-to-an-email-address-or-phone-number",
+    "name": "How to add a link to an email address or phone number",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005085147-How-to-add-a-link-to-an-email-address-or-phone-number",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 424
+  },
+  {
+    "id": "how-to-use-go-to-inbox-buttons-in-forms",
+    "name": "How to use go-to-inbox buttons in forms",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/34456643120411-How-to-use-go-to-inbox-buttons-in-forms",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 425
+  },
+  {
+    "id": "how-to-create-an-abandoned-site-flow-with-email-and-sms",
+    "name": "How to create an abandoned site flow with email and SMS",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/21137997887771-How-to-create-an-abandoned-site-flow-with-email-and-SMS",
+    "tags": [
+      "flows",
+      "email",
+      "sms"
+    ],
+    "views": 0,
+    "rank": 426
+  },
+  {
+    "id": "how-to-enable-a-flow-to-start-sending",
+    "name": "How to enable a flow to start sending",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002775132-How-to-enable-a-flow-to-start-sending",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 427
+  },
+  {
+    "id": "how-to-set-up-virtual-contact-cards-for-flows",
+    "name": "How to set up virtual contact cards for flows",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/8458786130331-How-to-set-up-virtual-contact-cards-for-flows",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 428
+  },
+  {
+    "id": "how-to-add-a-push-notification-to-a-flow",
+    "name": "How to add a push notification to a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/12932504108571-How-to-add-a-push-notification-to-a-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 429
+  },
+  {
+    "id": "how-to-use-unsubscribe-detection",
+    "name": "How to use unsubscribe detection",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/35737275447067-How-to-use-unsubscribe-detection",
+    "tags": [],
+    "views": 0,
+    "rank": 430
+  },
+  {
+    "id": "how-to-set-up-coupons-for-magento-1-x",
+    "name": "How to set up coupons (for Magento 1.x)",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005246547-How-to-set-up-coupons-for-Magento-1-x",
+    "tags": [
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 431
+  },
+  {
+    "id": "how-to-create-a-date-property-triggered-flow",
+    "name": "How to create a date property-triggered flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360002732652-How-to-create-a-date-property-triggered-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 432
+  },
+  {
+    "id": "how-to-update-a-profile-property-when-someone-clicks-a-link",
+    "name": "How to update a profile property when someone clicks a link",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005255248-How-to-update-a-profile-property-when-someone-clicks-a-link",
+    "tags": [
+      "profiles"
+    ],
+    "views": 0,
+    "rank": 433
+  },
+  {
+    "id": "how-to-export-your-benchmarks",
+    "name": "How to export your benchmarks",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360059067852-How-to-export-your-benchmarks",
+    "tags": [],
+    "views": 0,
+    "rank": 434
+  },
+  {
+    "id": "how-to-create-a-repeat-purchaser-segment",
+    "name": "How to create a repeat purchaser segment",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005066067-How-to-create-a-repeat-purchaser-segment",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 435
+  },
+  {
+    "id": "how-to-import-your-contacts-from-a-previous-esp-or-crm",
+    "name": "How to import your contacts from a previous ESP or CRM",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002053752-How-to-import-your-contacts-from-a-previous-ESP-or-CRM",
+    "tags": [],
+    "views": 0,
+    "rank": 436
+  },
+  {
+    "id": "how-to-create-a-customer-service-ticket-when-you-receive-a-n",
+    "name": "How to create a customer service ticket when you receive a negative review",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16680027976731-How-to-create-a-customer-service-ticket-when-you-receive-a-negative-review",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 437
+  },
+  {
+    "id": "how-to-add-a-tag-to-a-campaign-or-flow",
+    "name": "How to add a tag to a campaign or flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360053851792-How-to-add-a-tag-to-a-campaign-or-flow",
+    "tags": [
+      "flows",
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 438
+  },
+  {
+    "id": "how-to-delete-merge-and-export-a-profile",
+    "name": "How to delete, merge, and export a profile",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005073847-How-to-delete-merge-and-export-a-profile",
+    "tags": [
+      "profiles"
+    ],
+    "views": 0,
+    "rank": 439
+  },
+  {
+    "id": "how-to-add-link-that-applies-a-coupon-code-to-a-shopify-cart",
+    "name": "How to add link that applies a coupon code to a Shopify cart",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005253088-How-to-add-link-that-applies-a-coupon-code-to-a-Shopify-cart",
+    "tags": [
+      "integrations",
+      "shopify",
+      "coupons"
+    ],
+    "views": 0,
+    "rank": 440
+  },
+  {
+    "id": "how-to-create-a-replenishment-flow",
+    "name": "How to create a replenishment flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360003195232-How-to-create-a-replenishment-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 441
+  },
+  {
+    "id": "how-to-build-a-business-review-dashboard",
+    "name": "How to build a business review dashboard",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16428880806427-How-to-build-a-business-review-dashboard",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 442
+  },
+  {
+    "id": "how-to-use-pre-built-email-content",
+    "name": "How to use pre-built email content",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/36557890762011-How-to-use-pre-built-email-content",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 443
+  },
+  {
+    "id": "how-to-use-the-content-repeat-feature",
+    "name": "How to use the content repeat feature",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4408802445339-How-to-use-the-content-repeat-feature",
+    "tags": [],
+    "views": 0,
+    "rank": 444
+  },
+  {
+    "id": "how-to-create-email-frequency-segments",
+    "name": "How to create email frequency segments",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115000769631-How-to-create-email-frequency-segments",
+    "tags": [
+      "segments",
+      "email"
+    ],
+    "views": 0,
+    "rank": 445
+  },
+  {
+    "id": "how-to-send-a-campaign-to-multiple-lists-or-segments",
+    "name": "How to send a campaign to multiple lists or segments",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005227808-How-to-send-a-campaign-to-multiple-lists-or-segments",
+    "tags": [
+      "segments",
+      "campaigns",
+      "lists"
+    ],
+    "views": 0,
+    "rank": 446
+  },
+  {
+    "id": "how-to-edit-turn-off-or-delete-automations",
+    "name": "How to edit, turn off, or delete automations",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/34174737534363-How-to-edit-turn-off-or-delete-automations",
+    "tags": [],
+    "views": 0,
+    "rank": 447
+  },
+  {
+    "id": "how-to-add-or-remove-a-portfolio-user",
+    "name": "How to add or remove a portfolio user",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/25185184021019-How-to-add-or-remove-a-portfolio-user",
+    "tags": [],
+    "views": 0,
+    "rank": 448
+  },
+  {
+    "id": "how-to-create-a-push-welcome-series",
+    "name": "How to create a push welcome series",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/15038587235995-How-to-create-a-push-welcome-series",
+    "tags": [],
+    "views": 0,
+    "rank": 449
+  },
+  {
+    "id": "how-to-create-a-product-specific-flow",
+    "name": "How to create a product-specific flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002779431-How-to-create-a-product-specific-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 450
+  },
+  {
+    "id": "how-to-use-a-subscribe-page-on-your-website",
+    "name": "How to use a subscribe page on your website",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005251988-How-to-use-a-subscribe-page-on-your-website",
+    "tags": [],
+    "views": 0,
+    "rank": 451
+  },
+  {
+    "id": "how-to-set-up-push-notifications-for-a-react-native-app",
+    "name": "How to set up push notifications for a React Native app",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/22344173696539-How-to-set-up-push-notifications-for-a-React-Native-app",
+    "tags": [],
+    "views": 0,
+    "rank": 452
+  },
+  {
+    "id": "how-to-use-instagram-content-in-emails",
+    "name": "How to use Instagram content in emails",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360004384031-How-to-use-Instagram-content-in-emails",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 453
+  },
+  {
+    "id": "how-to-add-or-remove-an-account-from-a-portfolio",
+    "name": "How to add or remove an account from a portfolio",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/25185027474971-How-to-add-or-remove-an-account-from-a-portfolio",
+    "tags": [],
+    "views": 0,
+    "rank": 454
+  },
+  {
+    "id": "how-to-use-custom-css-to-style-klaviyo-reviews-widgets",
+    "name": "How to use custom CSS to style Klaviyo Reviews widgets",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/22192640532507-How-to-use-custom-CSS-to-style-Klaviyo-Reviews-widgets",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 455
+  },
+  {
+    "id": "how-to-add-a-dynamic-image-to-a-text-message",
+    "name": "How to add a dynamic image to a text message",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/1260806102230-How-to-add-a-dynamic-image-to-a-text-message",
+    "tags": [],
+    "views": 0,
+    "rank": 456
+  },
+  {
+    "id": "how-to-create-a-personalized-campaign-plan",
+    "name": "How to create a personalized campaign plan",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/36126687448475-How-to-create-a-personalized-campaign-plan",
+    "tags": [
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 457
+  },
+  {
+    "id": "how-to-send-consent-to-klaviyo-via-zapier",
+    "name": "How to send consent to Klaviyo via Zapier",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/4407486310683-How-to-send-consent-to-Klaviyo-via-Zapier",
+    "tags": [
+      "api"
+    ],
+    "views": 0,
+    "rank": 458
+  },
+  {
+    "id": "how-to-create-an-abandoned-cart-flow-for-amazon-buy-with-pri",
+    "name": "How to create an abandoned cart flow for Amazon Buy with Prime",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/14985388418331-How-to-create-an-abandoned-cart-flow-for-Amazon-Buy-with-Prime",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 459
+  },
+  {
+    "id": "how-to-create-custom-review-questions",
+    "name": "How to create custom review questions",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16319181846171-How-to-create-custom-review-questions",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 460
+  },
+  {
+    "id": "how-to-add-push-to-an-abandoned-cart-flow",
+    "name": "How to add push to an abandoned cart flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16839379548571-How-to-add-push-to-an-abandoned-cart-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 461
+  },
+  {
+    "id": "how-to-add-an-email-to-a-flow",
+    "name": "How to add an email to a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115003872191-How-to-add-an-email-to-a-flow",
+    "tags": [
+      "flows",
+      "email"
+    ],
+    "views": 0,
+    "rank": 462
+  },
+  {
+    "id": "how-to-export-a-list-or-segment-to-a-csv-file",
+    "name": "How to export a list or segment to a CSV file",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005078687-How-to-export-a-list-or-segment-to-a-CSV-file",
+    "tags": [
+      "segments",
+      "lists"
+    ],
+    "views": 0,
+    "rank": 463
+  },
+  {
+    "id": "how-to-add-an-additional-filter-to-a-single-flow-email",
+    "name": "How to add an additional filter to a single flow email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002779091-How-to-add-an-additional-filter-to-a-single-flow-email",
+    "tags": [
+      "flows",
+      "email"
+    ],
+    "views": 0,
+    "rank": 464
+  },
+  {
+    "id": "how-to-update-your-account-email-and-password-in-klaviyo",
+    "name": "How to update your account email and password in Klaviyo",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005079087-How-to-update-your-account-email-and-password-in-Klaviyo",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 465
+  },
+  {
+    "id": "how-to-use-the-preview-panel-for-message-personalization",
+    "name": "How to use the preview panel for message personalization",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/27843522951707-How-to-use-the-preview-panel-for-message-personalization",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 466
+  },
+  {
+    "id": "how-to-update-the-domain-settings-for-your-hosted-pages",
+    "name": "How to update the domain settings for your hosted pages",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360052334451-How-to-update-the-domain-settings-for-your-hosted-pages",
+    "tags": [],
+    "views": 0,
+    "rank": 467
+  },
+  {
+    "id": "how-to-customize-the-review-submission-page",
+    "name": "How to customize the review submission page",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/19481466872859-How-to-customize-the-review-submission-page",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 468
+  },
+  {
+    "id": "how-to-create-a-metric-triggered-flow",
+    "name": "How to create a metric-triggered flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360003057151-How-to-create-a-metric-triggered-flow",
+    "tags": [
+      "flows",
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 469
+  },
+  {
+    "id": "how-to-use-the-campaigns-library",
+    "name": "How to use the campaigns library",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/30892315134747-How-to-use-the-campaigns-library",
+    "tags": [
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 470
+  },
+  {
+    "id": "how-to-add-a-time-delay-to-a-flow",
+    "name": "How to add a time delay to a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115003885212-How-to-add-a-time-delay-to-a-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 471
+  },
+  {
+    "id": "how-to-add-a-background-image-to-an-email-template-or-sectio",
+    "name": "How to add a background image to an email template or section",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005255968-How-to-add-a-background-image-to-an-email-template-or-section",
+    "tags": [
+      "email",
+      "templates"
+    ],
+    "views": 0,
+    "rank": 472
+  },
+  {
+    "id": "how-to-update-the-klaviyo-branding-in-the-footer-of-your-ema",
+    "name": "How to update the Klaviyo branding in the footer of your emails",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005066887-How-to-update-the-Klaviyo-branding-in-the-footer-of-your-emails",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 473
+  },
+  {
+    "id": "how-to-add-a-dynamic-image-to-a-push-notification",
+    "name": "How to add a dynamic image to a push notification",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/18596283143707-How-to-add-a-dynamic-image-to-a-push-notification",
+    "tags": [],
+    "views": 0,
+    "rank": 474
+  },
+  {
+    "id": "how-to-export-campaign-analytics",
+    "name": "How to export campaign analytics",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360054361092-How-to-export-campaign-analytics",
+    "tags": [
+      "campaigns",
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 475
+  },
+  {
+    "id": "how-to-add-a-virtual-contact-card-to-a-flow-message",
+    "name": "How to add a virtual contact card to a flow message",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/8219838827931-How-to-add-a-virtual-contact-card-to-a-flow-message",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 476
+  },
+  {
+    "id": "how-to-export-the-html-for-an-email-template",
+    "name": "How to export the HTML for an email template",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005085167-How-to-export-the-HTML-for-an-email-template",
+    "tags": [
+      "email",
+      "templates"
+    ],
+    "views": 0,
+    "rank": 477
+  },
+  {
+    "id": "how-to-create-a-hybrid-email-template",
+    "name": "How to create a hybrid email template",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005254188-How-to-create-a-hybrid-email-template",
+    "tags": [
+      "email",
+      "templates"
+    ],
+    "views": 0,
+    "rank": 478
+  },
+  {
+    "id": "how-to-create-a-not-opted-in-segment",
+    "name": "How to create a not-opted-in segment",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360024584671-How-to-create-a-not-opted-in-segment",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 479
+  },
+  {
+    "id": "how-to-use-flows-ai-to-build-a-flow",
+    "name": "How to use Flows AI to build a flow",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/26604555031963-How-to-use-Flows-AI-to-build-a-flow",
+    "tags": [
+      "flows"
+    ],
+    "views": 0,
+    "rank": 480
+  },
+  {
+    "id": "how-to-use-tags-to-organize-campaigns",
+    "name": "How to use tags to organize campaigns",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005257828-How-to-use-tags-to-organize-campaigns",
+    "tags": [
+      "campaigns"
+    ],
+    "views": 0,
+    "rank": 481
+  },
+  {
+    "id": "how-to-edit-the-plain-text-version-of-an-html-email",
+    "name": "How to edit the plain text version of an HTML email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360037894891-How-to-edit-the-plain-text-version-of-an-HTML-email",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 482
+  },
+  {
+    "id": "how-to-create-a-non-opener-segment",
+    "name": "How to create a non-opener segment",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360048341511-How-to-create-a-non-opener-segment",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 483
+  },
+  {
+    "id": "how-to-create-flow-email-content",
+    "name": "How to create flow email content",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002774992-How-to-create-flow-email-content",
+    "tags": [
+      "flows",
+      "email"
+    ],
+    "views": 0,
+    "rank": 484
+  },
+  {
+    "id": "how-to-enable-and-use-rich-snippets-with-klaviyo-reviews",
+    "name": "How to enable and use rich snippets with Klaviyo Reviews",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/24707161844507-How-to-enable-and-use-rich-snippets-with-Klaviyo-Reviews",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 485
+  },
+  {
+    "id": "how-to-export-a-list-of-queued-back-in-stock-subscribers",
+    "name": "How to export a list of queued back in stock subscribers",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/1260805819449-How-to-export-a-list-of-queued-back-in-stock-subscribers",
+    "tags": [
+      "lists"
+    ],
+    "views": 0,
+    "rank": 486
+  },
+  {
+    "id": "how-to-sync-reviews-to-meta-shops",
+    "name": "How to sync reviews to Meta Shops",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/36974041824795-How-to-sync-reviews-to-Meta-Shops",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 487
+  },
+  {
+    "id": "how-to-export-klaviyo-reviews-data",
+    "name": "How to export Klaviyo Reviews data",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/16680089934235-How-to-export-Klaviyo-Reviews-data",
+    "tags": [
+      "reviews"
+    ],
+    "views": 0,
+    "rank": 488
+  },
+  {
+    "id": "how-to-use-a-social-links-block-in-an-email",
+    "name": "How to use a social links block in an email",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32281152537755-How-to-use-a-social-links-block-in-an-email",
+    "tags": [
+      "email"
+    ],
+    "views": 0,
+    "rank": 489
+  },
+  {
+    "id": "how-to-set-up-oauth-for-existing-magento-2-integrations",
+    "name": "How to set up OAuth for existing Magento 2 integrations",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/1260807540249-How-to-set-up-OAuth-for-existing-Magento-2-integrations",
+    "tags": [
+      "integrations"
+    ],
+    "views": 0,
+    "rank": 490
+  },
+  {
+    "id": "how-to-use-anchor-links-in-your-messages-and-forms",
+    "name": "How to use anchor links in your messages and forms",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360043506852-How-to-use-anchor-links-in-your-messages-and-forms",
+    "tags": [
+      "forms"
+    ],
+    "views": 0,
+    "rank": 491
+  },
+  {
+    "id": "how-to-enable-and-disable-hosted-pages",
+    "name": "How to enable and disable hosted pages",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/360057679192-How-to-enable-and-disable-hosted-pages",
+    "tags": [],
+    "views": 0,
+    "rank": 492
+  },
+  {
+    "id": "how-to-create-an-unengaged-segment",
+    "name": "How to create an unengaged segment",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32826141659675-How-to-create-an-unengaged-segment",
+    "tags": [
+      "segments"
+    ],
+    "views": 0,
+    "rank": 493
+  },
+  {
+    "id": "how-to-add-an-embed-form-to-your-shopify-site",
+    "name": "How to add an embed form to your Shopify site",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/32004602396443-How-to-add-an-embed-form-to-your-Shopify-site",
+    "tags": [
+      "forms",
+      "integrations",
+      "shopify"
+    ],
+    "views": 0,
+    "rank": 494
+  },
+  {
+    "id": "how-to-use-portfolio-level-mapped-metrics",
+    "name": "How to use portfolio-level mapped metrics",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/28264156063899-How-to-use-portfolio-level-mapped-metrics",
+    "tags": [
+      "analytics"
+    ],
+    "views": 0,
+    "rank": 495
+  }
+]
