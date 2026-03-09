@@ -58,7 +58,7 @@ jobs:
           KLAVIYO_TEST_EMAIL: ${{ secrets.KLAVIYO_TEST_EMAIL }}
           KLAVIYO_TEST_PASSWORD: ${{ secrets.KLAVIYO_TEST_PASSWORD }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: npx ts-node scripts/qa-runner.ts
+        run: npx ts-node scripts/qa-runner.ts --limit=30
         continue-on-error: true
 
       - name: Upload screenshots

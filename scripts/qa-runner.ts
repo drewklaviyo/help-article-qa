@@ -101,6 +101,19 @@ async function runSingleArticle(
       steps,
       screenshotDir
     );
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    log(`Unexpected error during QA: ${msg}`);
+    return {
+      articleId: article.id,
+      articleName: article.name,
+      articleUrl: article.url,
+      passed: false,
+      steps: [],
+      screenshots: [],
+      durationMs: Date.now() - startTime,
+      error: msg,
+    };
   } finally {
     await close();
   }
